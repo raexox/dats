@@ -69,3 +69,9 @@ class TokenResponse(BaseModel):
     access_token: str
     token_type: Literal["bearer"] = "bearer"
     user: UserPublic
+
+
+class QueryHistoryItem(BaseModel):
+    id: str
+    request: QueryRequest
+    createdAt: datetime

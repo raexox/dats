@@ -1,14 +1,16 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { AppNavbar } from "@/components/app-navbar"
 import { SearchInput } from "@/components/search-input"
 import { MapView } from "@/components/map-view"
 import { ControlsPanel } from "@/components/controls-panel"
 import { DataTableView } from "@/components/data-table-view"
+import { RecentQueries } from "@/components/recent-queries"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { previewQuery } from "@/lib/api/query"
-import type { MapGeoLevel, QueryRequest, QueryResponse } from "@/types/api"
+import { fetchRecentQueries, saveQuery } from "@/lib/api/queries"
+import type { MapGeoLevel, QueryHistoryItem, QueryRequest, QueryResponse } from "@/types/api"
 
 export default function AppPage() {
   const [searchPhrase, setSearchPhrase] = useState("bananas")
@@ -19,6 +21,9 @@ export default function AppPage() {
   const [isLoading, setIsLoading] = useState(false)
   const [queryResponse, setQueryResponse] = useState<QueryResponse | null>(null)
   const [queryError, setQueryError] = useState<string | null>(null)
+  const [recentQueries, setRecentQueries] = useState<QueryHistoryItem[]>([])
+  const [recentLoading, setRecentLoading] = useState(false)
+  const [recentError, setRecentError] = useState<string | null>(null)
 
   const queryRequest = useMemo<QueryRequest>(
     () => ({
@@ -31,7 +36,8 @@ export default function AppPage() {
     [searchPhrase, metric, geography, timeRange, perCapita]
   )
 
-  const runPreview = async (nextRequest: QueryRequest) => {
+  const runPreview = async (nextRequest: QueryRequest, options?: { save?: boolean }) => {
+    const shouldSave = options?.save ?? true
     setIsLoading(true)
     setQueryError(null)
     try {
@@ -43,7 +49,33 @@ export default function AppPage() {
     } finally {
       setIsLoading(false)
     }
+
+    if (shouldSave) {
+      try {
+        await saveQuery(nextRequest)
+        await loadRecentQueries()
+      } catch (error) {
+        setRecentError(error instanceof Error ? error.message : "Unable to save recent query.")
+      }
+    }
   }
+
+  const loadRecentQueries = async () => {
+    setRecentLoading(true)
+    setRecentError(null)
+    try {
+      const items = await fetchRecentQueries()
+      setRecentQueries(items)
+    } catch (error) {
+      setRecentError(error instanceof Error ? error.message : "Unable to load recent queries.")
+    } finally {
+      setRecentLoading(false)
+    }
+  }
+
+  useEffect(() => {
+    void loadRecentQueries()
+  }, [])
 
   const handleSearch = async (phrase: string) => {
     setSearchPhrase(phrase)
@@ -57,6 +89,16 @@ export default function AppPage() {
     await runPreview(queryRequest)
   }
 
+  const handleSelectQuery = async (item: QueryHistoryItem) => {
+    const request = item.request
+    setSearchPhrase(request.phrase)
+    setMetric(request.metric)
+    setGeography(request.geography)
+    setTimeRange(request.timeRange)
+    setPerCapita(request.perCapita)
+    await runPreview(request, { save: false })
+  }
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <AppNavbar />
@@ -67,7 +109,12 @@ export default function AppPage() {
             {/* Search Section */}
             <div>
               <h1 className="text-3xl font-bold tracking-tight mb-4">Data Explorer</h1>
-              <SearchInput onSearch={handleSearch} isLoading={isLoading} />
+              <SearchInput
+                value={searchPhrase}
+                onValueChange={setSearchPhrase}
+                onSearch={handleSearch}
+                isLoading={isLoading}
+              />
             </div>
 
             {/* Main Content Grid */}
@@ -78,7 +125,7 @@ export default function AppPage() {
               </div>
 
               {/* Right: Controls */}
-              <div className="lg:col-span-1">
+              <div className="lg:col-span-1 space-y-6">
                 <ControlsPanel
                   metric={metric}
                   onMetricChange={setMetric}
@@ -93,6 +140,12 @@ export default function AppPage() {
                     setPerCapita(false)
                   }}
                 />
+                <RecentQueries
+                  items={recentQueries}
+                  isLoading={recentLoading}
+                  onSelect={handleSelectQuery}
+                />
+                {recentError && <p className="text-sm text-destructive">{recentError}</p>}
               </div>
             </div>
           </div>

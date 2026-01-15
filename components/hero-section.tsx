@@ -3,8 +3,12 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, TrendingUp } from "lucide-react"
+import { useAuth } from "@/hooks/use-auth"
 
 export function HeroSection() {
+  const { user, isLoading } = useAuth()
+  const showSignup = !isLoading && !user
+
   return (
     <section className="relative overflow-hidden py-16 md:py-24">
       <div className="mx-auto grid w-full max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-[1.1fr_auto] lg:gap-16">
@@ -27,15 +31,17 @@ export function HeroSection() {
           <div className="flex flex-col justify-center gap-4 sm:flex-row sm:justify-start">
             <Button size="lg" asChild>
               <Link href="/app" className="flex items-center gap-2 justify-center">
-                Try it now
+                {user ? "Open your workspace" : "Try it now"}
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild>
-              <Link href="/signup" className="flex items-center justify-center">
-                Sign up for free
-              </Link>
-            </Button>
+            {showSignup && (
+              <Button size="lg" variant="outline" asChild>
+                <Link href="/signup" className="flex items-center justify-center">
+                  Sign up for free
+                </Link>
+              </Button>
+            )}
           </div>
         </div>
 

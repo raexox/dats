@@ -56,3 +56,9 @@ export interface AuthLoginRequest {
   email: string
   password: string
 }
+
+export interface QueryHistoryItem {
+  id: string
+  request: QueryRequest
+  createdAt: string
+}

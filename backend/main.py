@@ -12,6 +12,7 @@ from bson import ObjectId
 
 from models import (
     DatasetRow,
+    QueryHistoryItem,
     QueryRequest,
     QueryResponse,
     SourceMetadata,
@@ -45,6 +46,8 @@ mongo_client = MongoClient(mongo_uri)
 db = mongo_client[mongo_db_name]
 users_collection = db["users"]
 users_collection.create_index("email", unique=True)
+queries_collection = db["queries"]
+queries_collection.create_index([("user_id", 1), ("created_at", -1)])
 
 pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
 
@@ -93,6 +96,28 @@ def _get_user_by_email(email: str) -> dict | None:
     return users_collection.find_one({"email": email.lower()})
 
 
+def _get_current_user(authorization: str | None) -> dict:
+    if not authorization or not authorization.lower().startswith("bearer "):
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Missing access token.")
+    token = authorization.split(" ", 1)[1].strip()
+    try:
+        payload = jwt.decode(token, jwt_secret, algorithms=["HS256"])
+    except jwt.PyJWTError as exc:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid access token.") from exc
+
+    user_id = payload.get("sub")
+    if not user_id:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid access token.")
+    try:
+        object_id = ObjectId(user_id)
+    except Exception as exc:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid access token.") from exc
+    user = users_collection.find_one({"_id": object_id})
+    if not user:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found.")
+    return user
+
+
 @app.post("/auth/register", response_model=UserPublic, status_code=status.HTTP_201_CREATED)
 def register_user(payload: UserCreate):
     email = payload.email.lower().strip()
@@ -125,24 +150,7 @@ def login_user(payload: UserLogin):
 
 @app.get("/auth/me", response_model=UserPublic)
 def get_me(authorization: str | None = Header(default=None)):
-    if not authorization or not authorization.lower().startswith("bearer "):
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Missing access token.")
-    token = authorization.split(" ", 1)[1].strip()
-    try:
-        payload = jwt.decode(token, jwt_secret, algorithms=["HS256"])
-    except jwt.PyJWTError as exc:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid access token.") from exc
-
-    user_id = payload.get("sub")
-    if not user_id:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid access token.")
-    try:
-        object_id = ObjectId(user_id)
-    except Exception as exc:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid access token.") from exc
-    user = users_collection.find_one({"_id": object_id})
-    if not user:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found.")
+    user = _get_current_user(authorization)
     return _user_to_public(user)
 
 
@@ -185,3 +193,37 @@ def preview_query(payload: QueryRequest):
         notes=f"Preview for {payload.geography} geography and {payload.metric} metric.",
     )
     return QueryResponse(request=payload, rows=rows, source=source)
+
+
+@app.post("/queries", response_model=QueryHistoryItem, status_code=status.HTTP_201_CREATED)
+def save_query(payload: QueryRequest, authorization: str | None = Header(default=None)):
+    user = _get_current_user(authorization)
+    now = datetime.now(timezone.utc)
+    record = {
+        "user_id": user["_id"],
+        "request": payload.model_dump(),
+        "created_at": now,
+    }
+    result = queries_collection.insert_one(record)
+    return QueryHistoryItem(id=str(result.inserted_id), request=payload, createdAt=now)
+
+
+@app.get("/queries", response_model=list[QueryHistoryItem])
+def list_queries(limit: int = 20, authorization: str | None = Header(default=None)):
+    user = _get_current_user(authorization)
+    safe_limit = max(1, min(limit, 50))
+    cursor = (
+        queries_collection.find({"user_id": user["_id"]})
+        .sort("created_at", -1)
+        .limit(safe_limit)
+    )
+    items: list[QueryHistoryItem] = []
+    for item in cursor:
+        items.append(
+            QueryHistoryItem(
+                id=str(item["_id"]),
+                request=QueryRequest(**item["request"]),
+                createdAt=item["created_at"],
+            )
+        )
+    return items
