@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import date, datetime
 from typing import Literal
 
 from pydantic import BaseModel, Field
@@ -75,3 +75,51 @@ class QueryHistoryItem(BaseModel):
     id: str
     request: QueryRequest
     createdAt: datetime
+
+
+class DatasetQueryParams(BaseModel):
+    geo_level: str | None = None
+    geo_id: str | None = None
+    metric: str | None = None
+    start_date: datetime | None = None
+    end_date: datetime | None = None
+
+
+class DatasetFetchRequest(BaseModel):
+    dataset_id: str
+    params: DatasetQueryParams | None = None
+
+
+class DatasetResult(BaseModel):
+    dataset_id: str
+    row_count: int
+    rows_preview: list[dict]
+    metadata: dict
+    no_data: bool = False
+
+
+class UserQuery(BaseModel):
+    text: str
+    geo_level: str
+    start_date: date
+    end_date: date
+    metric_hint: str | None = None
+
+
+class PlannerScoreBreakdown(BaseModel):
+    keyword: float
+    geo: float
+    time: float
+    metric: float
+    total: float
+
+
+class PlannerCandidate(BaseModel):
+    dataset_id: str
+    name: str
+    score: PlannerScoreBreakdown
+
+
+class PlannerResponse(BaseModel):
+    top_k: int
+    candidates: list[PlannerCandidate]

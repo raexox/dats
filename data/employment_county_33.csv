@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+county,06037,Los Angeles County,2006-01-01,unemployment_rate,4109.81
+county,06037,Los Angeles County,2006-01-01,labor_participation,1881.5
+county,17031,Cook County,2006-01-01,unemployment_rate,4707.75
+county,17031,Cook County,2006-01-01,labor_participation,2616.46
+county,36061,New York County,2006-01-01,unemployment_rate,2370.37
+county,36061,New York County,2006-01-01,labor_participation,4407.93
+county,06037,Los Angeles County,2007-03-03,unemployment_rate,2036.28
+county,06037,Los Angeles County,2007-03-03,labor_participation,1816.83
+county,17031,Cook County,2007-03-03,unemployment_rate,477.19
+county,17031,Cook County,2007-03-03,labor_participation,1904.26
+county,36061,New York County,2007-03-03,unemployment_rate,697.37
+county,36061,New York County,2007-03-03,labor_participation,2925.36
+county,06037,Los Angeles County,2008-05-02,unemployment_rate,1839.81
+county,06037,Los Angeles County,2008-05-02,labor_participation,4815.65
+county,17031,Cook County,2008-05-02,unemployment_rate,2238.82
+county,17031,Cook County,2008-05-02,labor_participation,2173.97
+county,36061,New York County,2008-05-02,unemployment_rate,3938.98
+county,36061,New York County,2008-05-02,labor_participation,197.73
+county,06037,Los Angeles County,2009-07-02,unemployment_rate,2424.52
+county,06037,Los Angeles County,2009-07-02,labor_participation,1593.06
+county,17031,Cook County,2009-07-02,unemployment_rate,3085.9
+county,17031,Cook County,2009-07-02,labor_participation,1512.91
+county,36061,New York County,2009-07-02,unemployment_rate,2252.13
+county,36061,New York County,2009-07-02,labor_participation,4005.88
+county,06037,Los Angeles County,2010-09-01,unemployment_rate,3688.5
+county,06037,Los Angeles County,2010-09-01,labor_participation,355.7
+county,17031,Cook County,2010-09-01,unemployment_rate,2743.12
+county,17031,Cook County,2010-09-01,labor_participation,1428.46
+county,36061,New York County,2010-09-01,unemployment_rate,260.9
+county,36061,New York County,2010-09-01,labor_participation,1180.4
+county,06037,Los Angeles County,2011-11-01,unemployment_rate,4891.89
+county,06037,Los Angeles County,2011-11-01,labor_participation,1821.59
+county,17031,Cook County,2011-11-01,unemployment_rate,2834.16
+county,17031,Cook County,2011-11-01,labor_participation,3243.8
+county,36061,New York County,2011-11-01,unemployment_rate,1592.26
+county,36061,New York County,2011-11-01,labor_participation,2973.38
+county,06037,Los Angeles County,2012-12-31,unemployment_rate,3744.94
+county,06037,Los Angeles County,2012-12-31,labor_participation,844.9
+county,17031,Cook County,2012-12-31,unemployment_rate,2177.51
+county,17031,Cook County,2012-12-31,labor_participation,3701.39
+county,36061,New York County,2012-12-31,unemployment_rate,4375.38
+county,36061,New York County,2012-12-31,labor_participation,4901.21

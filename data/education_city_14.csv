@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+city,0667000,Los Angeles,2008-01-01,graduation_rate,4074.34
+city,0667000,Los Angeles,2008-01-01,college_attainment,3549.23
+city,4819000,Dallas,2008-01-01,graduation_rate,3589.13
+city,4819000,Dallas,2008-01-01,college_attainment,3660.2
+city,3651000,New York City,2008-01-01,graduation_rate,1040.06
+city,3651000,New York City,2008-01-01,college_attainment,1206.3
+city,0667000,Los Angeles,2009-05-01,graduation_rate,4829.01
+city,0667000,Los Angeles,2009-05-01,college_attainment,334.97
+city,4819000,Dallas,2009-05-01,graduation_rate,2604.6
+city,4819000,Dallas,2009-05-01,college_attainment,4633.95
+city,3651000,New York City,2009-05-01,graduation_rate,1229.83
+city,3651000,New York City,2009-05-01,college_attainment,1335.22
+city,0667000,Los Angeles,2010-08-30,graduation_rate,3853.42
+city,0667000,Los Angeles,2010-08-30,college_attainment,2754.25
+city,4819000,Dallas,2010-08-30,graduation_rate,1821.26
+city,4819000,Dallas,2010-08-30,college_attainment,1693.23
+city,3651000,New York City,2010-08-30,graduation_rate,3052.73
+city,3651000,New York City,2010-08-30,college_attainment,4218.16
+city,0667000,Los Angeles,2011-12-29,graduation_rate,214.31
+city,0667000,Los Angeles,2011-12-29,college_attainment,2782.12
+city,4819000,Dallas,2011-12-29,graduation_rate,1886.87
+city,4819000,Dallas,2011-12-29,college_attainment,802.18
+city,3651000,New York City,2011-12-29,graduation_rate,3476.11
+city,3651000,New York City,2011-12-29,college_attainment,2185.59
+city,0667000,Los Angeles,2013-04-28,graduation_rate,2689.56
+city,0667000,Los Angeles,2013-04-28,college_attainment,235.14
+city,4819000,Dallas,2013-04-28,graduation_rate,390.53
+city,4819000,Dallas,2013-04-28,college_attainment,4828.71
+city,3651000,New York City,2013-04-28,graduation_rate,2905.83
+city,3651000,New York City,2013-04-28,college_attainment,2171.7
+city,0667000,Los Angeles,2014-08-27,graduation_rate,1886.24
+city,0667000,Los Angeles,2014-08-27,college_attainment,975.06
+city,4819000,Dallas,2014-08-27,graduation_rate,1779.37
+city,4819000,Dallas,2014-08-27,college_attainment,1035.39
+city,3651000,New York City,2014-08-27,graduation_rate,1136.15
+city,3651000,New York City,2014-08-27,college_attainment,4599.69
+city,0667000,Los Angeles,2015-12-26,graduation_rate,3971.48
+city,0667000,Los Angeles,2015-12-26,college_attainment,581.63
+city,4819000,Dallas,2015-12-26,graduation_rate,3975.7
+city,4819000,Dallas,2015-12-26,college_attainment,2529.07
+city,3651000,New York City,2015-12-26,graduation_rate,3580.36
+city,3651000,New York City,2015-12-26,college_attainment,3283.95

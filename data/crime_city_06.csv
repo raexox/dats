@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+city,0667000,Los Angeles,2012-01-01,crime_rate,243.11
+city,0667000,Los Angeles,2012-01-01,violent_crime_rate,4070.27
+city,4819000,Dallas,2012-01-01,crime_rate,1403.08
+city,4819000,Dallas,2012-01-01,violent_crime_rate,4638.05
+city,3651000,New York City,2012-01-01,crime_rate,3570.86
+city,3651000,New York City,2012-01-01,violent_crime_rate,4821.59
+city,0667000,Los Angeles,2013-05-01,crime_rate,3678.66
+city,0667000,Los Angeles,2013-05-01,violent_crime_rate,1426.59
+city,4819000,Dallas,2013-05-01,crime_rate,4062.01
+city,4819000,Dallas,2013-05-01,violent_crime_rate,4896.72
+city,3651000,New York City,2013-05-01,crime_rate,2790.16
+city,3651000,New York City,2013-05-01,violent_crime_rate,51.23
+city,0667000,Los Angeles,2014-08-30,crime_rate,4744.83
+city,0667000,Los Angeles,2014-08-30,violent_crime_rate,3830.55
+city,4819000,Dallas,2014-08-30,crime_rate,2003.1
+city,4819000,Dallas,2014-08-30,violent_crime_rate,3664.74
+city,3651000,New York City,2014-08-30,crime_rate,2115.97
+city,3651000,New York City,2014-08-30,violent_crime_rate,1062.89
+city,0667000,Los Angeles,2015-12-29,crime_rate,3111.77
+city,0667000,Los Angeles,2015-12-29,violent_crime_rate,1320.0
+city,4819000,Dallas,2015-12-29,crime_rate,86.25
+city,4819000,Dallas,2015-12-29,violent_crime_rate,4663.31
+city,3651000,New York City,2015-12-29,crime_rate,2418.29
+city,3651000,New York City,2015-12-29,violent_crime_rate,2037.09
+city,0667000,Los Angeles,2017-04-28,crime_rate,1925.98
+city,0667000,Los Angeles,2017-04-28,violent_crime_rate,1132.69
+city,4819000,Dallas,2017-04-28,crime_rate,3128.29
+city,4819000,Dallas,2017-04-28,violent_crime_rate,4970.25
+city,3651000,New York City,2017-04-28,crime_rate,2854.1
+city,3651000,New York City,2017-04-28,violent_crime_rate,1037.1
+city,0667000,Los Angeles,2018-08-27,crime_rate,4682.69
+city,0667000,Los Angeles,2018-08-27,violent_crime_rate,4427.93
+city,4819000,Dallas,2018-08-27,crime_rate,4384.29
+city,4819000,Dallas,2018-08-27,violent_crime_rate,2617.29
+city,3651000,New York City,2018-08-27,crime_rate,4710.12
+city,3651000,New York City,2018-08-27,violent_crime_rate,1422.6
+city,0667000,Los Angeles,2019-12-26,crime_rate,2873.99
+city,0667000,Los Angeles,2019-12-26,violent_crime_rate,359.47
+city,4819000,Dallas,2019-12-26,crime_rate,894.98
+city,4819000,Dallas,2019-12-26,violent_crime_rate,954.54
+city,3651000,New York City,2019-12-26,crime_rate,3688.88
+city,3651000,New York City,2019-12-26,violent_crime_rate,3677.31

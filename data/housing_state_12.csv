@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+state,CA,California,2004-01-01,median_rent,3749.58
+state,CA,California,2004-01-01,home_value,2153.16
+state,TX,Texas,2004-01-01,median_rent,4432.31
+state,TX,Texas,2004-01-01,home_value,2994.55
+state,NY,New York,2004-01-01,median_rent,1101.05
+state,NY,New York,2004-01-01,home_value,1774.36
+state,CA,California,2004-12-31,median_rent,94.57
+state,CA,California,2004-12-31,home_value,3113.42
+state,TX,Texas,2004-12-31,median_rent,23.54
+state,TX,Texas,2004-12-31,home_value,3047.87
+state,NY,New York,2004-12-31,median_rent,94.4
+state,NY,New York,2004-12-31,home_value,2323.95
+state,CA,California,2005-12-31,median_rent,3896.92
+state,CA,California,2005-12-31,home_value,1484.96
+state,TX,Texas,2005-12-31,median_rent,1896.37
+state,TX,Texas,2005-12-31,home_value,1139.15
+state,NY,New York,2005-12-31,median_rent,3751.22
+state,NY,New York,2005-12-31,home_value,203.64
+state,CA,California,2006-12-31,median_rent,2272.86
+state,CA,California,2006-12-31,home_value,4584.92
+state,TX,Texas,2006-12-31,median_rent,4919.31
+state,TX,Texas,2006-12-31,home_value,3581.48
+state,NY,New York,2006-12-31,median_rent,4194.7
+state,NY,New York,2006-12-31,home_value,2068.31
+state,CA,California,2007-12-31,median_rent,3501.16
+state,CA,California,2007-12-31,home_value,2556.82
+state,TX,Texas,2007-12-31,median_rent,532.95
+state,TX,Texas,2007-12-31,home_value,3509.41
+state,NY,New York,2007-12-31,median_rent,1174.27
+state,NY,New York,2007-12-31,home_value,894.45
+state,CA,California,2008-12-30,median_rent,2348.33
+state,CA,California,2008-12-30,home_value,2810.07
+state,TX,Texas,2008-12-30,median_rent,3122.17
+state,TX,Texas,2008-12-30,home_value,1952.4
+state,NY,New York,2008-12-30,median_rent,3395.74
+state,NY,New York,2008-12-30,home_value,4703.59
+state,CA,California,2009-12-30,median_rent,1371.49
+state,CA,California,2009-12-30,home_value,29.37
+state,TX,Texas,2009-12-30,median_rent,3031.85
+state,TX,Texas,2009-12-30,home_value,219.88
+state,NY,New York,2009-12-30,median_rent,1883.14
+state,NY,New York,2009-12-30,home_value,778.78

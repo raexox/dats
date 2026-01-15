@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+county,06037,Los Angeles County,2010-01-01,life_expectancy,3620.41
+county,06037,Los Angeles County,2010-01-01,mortality_rate,197.92
+county,17031,Cook County,2010-01-01,life_expectancy,1385.64
+county,17031,Cook County,2010-01-01,mortality_rate,2746.04
+county,36061,New York County,2010-01-01,life_expectancy,1921.46
+county,36061,New York County,2010-01-01,mortality_rate,1873.19
+county,06037,Los Angeles County,2011-03-03,life_expectancy,1444.46
+county,06037,Los Angeles County,2011-03-03,mortality_rate,3244.43
+county,17031,Cook County,2011-03-03,life_expectancy,375.31
+county,17031,Cook County,2011-03-03,mortality_rate,2552.89
+county,36061,New York County,2011-03-03,life_expectancy,2894.27
+county,36061,New York County,2011-03-03,mortality_rate,353.53
+county,06037,Los Angeles County,2012-05-02,life_expectancy,3744.52
+county,06037,Los Angeles County,2012-05-02,mortality_rate,861.79
+county,17031,Cook County,2012-05-02,life_expectancy,906.01
+county,17031,Cook County,2012-05-02,mortality_rate,968.81
+county,36061,New York County,2012-05-02,life_expectancy,4197.0
+county,36061,New York County,2012-05-02,mortality_rate,72.76
+county,06037,Los Angeles County,2013-07-02,life_expectancy,803.14
+county,06037,Los Angeles County,2013-07-02,mortality_rate,4387.62
+county,17031,Cook County,2013-07-02,life_expectancy,2969.31
+county,17031,Cook County,2013-07-02,mortality_rate,1410.72
+county,36061,New York County,2013-07-02,life_expectancy,4496.01
+county,36061,New York County,2013-07-02,mortality_rate,1551.86
+county,06037,Los Angeles County,2014-09-01,life_expectancy,4233.19
+county,06037,Los Angeles County,2014-09-01,mortality_rate,1014.72
+county,17031,Cook County,2014-09-01,life_expectancy,3523.67
+county,17031,Cook County,2014-09-01,mortality_rate,1917.65
+county,36061,New York County,2014-09-01,life_expectancy,1849.89
+county,36061,New York County,2014-09-01,mortality_rate,4825.19
+county,06037,Los Angeles County,2015-11-01,life_expectancy,1530.24
+county,06037,Los Angeles County,2015-11-01,mortality_rate,2882.09
+county,17031,Cook County,2015-11-01,life_expectancy,2828.63
+county,17031,Cook County,2015-11-01,mortality_rate,2988.65
+county,36061,New York County,2015-11-01,life_expectancy,4774.19
+county,36061,New York County,2015-11-01,mortality_rate,4695.14
+county,06037,Los Angeles County,2016-12-31,life_expectancy,3179.37
+county,06037,Los Angeles County,2016-12-31,mortality_rate,332.95
+county,17031,Cook County,2016-12-31,life_expectancy,1849.2
+county,17031,Cook County,2016-12-31,mortality_rate,4069.87
+county,36061,New York County,2016-12-31,life_expectancy,361.07
+county,36061,New York County,2016-12-31,mortality_rate,1883.75

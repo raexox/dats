@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+county,06037,Los Angeles County,2002-01-01,median_income,359.88
+county,06037,Los Angeles County,2002-01-01,household_income,1301.92
+county,17031,Cook County,2002-01-01,median_income,4744.51
+county,17031,Cook County,2002-01-01,household_income,1659.41
+county,36061,New York County,2002-01-01,median_income,2008.95
+county,36061,New York County,2002-01-01,household_income,3310.3
+county,06037,Los Angeles County,2003-03-03,median_income,3935.24
+county,06037,Los Angeles County,2003-03-03,household_income,3026.2
+county,17031,Cook County,2003-03-03,median_income,2715.65
+county,17031,Cook County,2003-03-03,household_income,4477.09
+county,36061,New York County,2003-03-03,median_income,404.8
+county,36061,New York County,2003-03-03,household_income,428.7
+county,06037,Los Angeles County,2004-05-02,median_income,2000.46
+county,06037,Los Angeles County,2004-05-02,household_income,801.94
+county,17031,Cook County,2004-05-02,median_income,3063.9
+county,17031,Cook County,2004-05-02,household_income,3770.68
+county,36061,New York County,2004-05-02,median_income,1673.85
+county,36061,New York County,2004-05-02,household_income,972.54
+county,06037,Los Angeles County,2005-07-02,median_income,2176.28
+county,06037,Los Angeles County,2005-07-02,household_income,2415.34
+county,17031,Cook County,2005-07-02,median_income,1730.19
+county,17031,Cook County,2005-07-02,household_income,181.91
+county,36061,New York County,2005-07-02,median_income,4349.42
+county,36061,New York County,2005-07-02,household_income,4833.41
+county,06037,Los Angeles County,2006-09-01,median_income,3868.48
+county,06037,Los Angeles County,2006-09-01,household_income,4545.95
+county,17031,Cook County,2006-09-01,median_income,2991.81
+county,17031,Cook County,2006-09-01,household_income,2762.14
+county,36061,New York County,2006-09-01,median_income,2080.07
+county,36061,New York County,2006-09-01,household_income,2281.47
+county,06037,Los Angeles County,2007-11-01,median_income,90.09
+county,06037,Los Angeles County,2007-11-01,household_income,1235.27
+county,17031,Cook County,2007-11-01,median_income,3929.68
+county,17031,Cook County,2007-11-01,household_income,369.64
+county,36061,New York County,2007-11-01,median_income,2019.48
+county,36061,New York County,2007-11-01,household_income,593.11
+county,06037,Los Angeles County,2008-12-31,median_income,657.93
+county,06037,Los Angeles County,2008-12-31,household_income,2233.63
+county,17031,Cook County,2008-12-31,median_income,3261.34
+county,17031,Cook County,2008-12-31,household_income,137.89
+county,36061,New York County,2008-12-31,median_income,691.17
+county,36061,New York County,2008-12-31,household_income,1788.95

@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+metro,31080,Los Angeles-Long Beach-Anaheim,2010-01-01,life_expectancy,4791.94
+metro,31080,Los Angeles-Long Beach-Anaheim,2010-01-01,mortality_rate,4325.74
+metro,19100,Dallas-Fort Worth,2010-01-01,life_expectancy,578.6
+metro,19100,Dallas-Fort Worth,2010-01-01,mortality_rate,4662.77
+metro,35620,New York-Newark,2010-01-01,life_expectancy,1131.81
+metro,35620,New York-Newark,2010-01-01,mortality_rate,1688.14
+metro,31080,Los Angeles-Long Beach-Anaheim,2011-07-02,life_expectancy,4290.74
+metro,31080,Los Angeles-Long Beach-Anaheim,2011-07-02,mortality_rate,1853.54
+metro,19100,Dallas-Fort Worth,2011-07-02,life_expectancy,865.58
+metro,19100,Dallas-Fort Worth,2011-07-02,mortality_rate,2754.93
+metro,35620,New York-Newark,2011-07-02,life_expectancy,2832.06
+metro,35620,New York-Newark,2011-07-02,mortality_rate,1327.43
+metro,31080,Los Angeles-Long Beach-Anaheim,2012-12-30,life_expectancy,3100.28
+metro,31080,Los Angeles-Long Beach-Anaheim,2012-12-30,mortality_rate,2440.63
+metro,19100,Dallas-Fort Worth,2012-12-30,life_expectancy,3940.89
+metro,19100,Dallas-Fort Worth,2012-12-30,mortality_rate,352.04
+metro,35620,New York-Newark,2012-12-30,life_expectancy,1603.34
+metro,35620,New York-Newark,2012-12-30,mortality_rate,3829.59
+metro,31080,Los Angeles-Long Beach-Anaheim,2014-06-30,life_expectancy,3225.68
+metro,31080,Los Angeles-Long Beach-Anaheim,2014-06-30,mortality_rate,2047.6
+metro,19100,Dallas-Fort Worth,2014-06-30,life_expectancy,1811.63
+metro,19100,Dallas-Fort Worth,2014-06-30,mortality_rate,4257.73
+metro,35620,New York-Newark,2014-06-30,life_expectancy,2212.56
+metro,35620,New York-Newark,2014-06-30,mortality_rate,3083.6
+metro,31080,Los Angeles-Long Beach-Anaheim,2015-12-29,life_expectancy,4943.13
+metro,31080,Los Angeles-Long Beach-Anaheim,2015-12-29,mortality_rate,3146.29
+metro,19100,Dallas-Fort Worth,2015-12-29,life_expectancy,4433.13
+metro,19100,Dallas-Fort Worth,2015-12-29,mortality_rate,2815.86
+metro,35620,New York-Newark,2015-12-29,life_expectancy,946.05
+metro,35620,New York-Newark,2015-12-29,mortality_rate,2099.19
+metro,31080,Los Angeles-Long Beach-Anaheim,2017-06-28,life_expectancy,4117.49
+metro,31080,Los Angeles-Long Beach-Anaheim,2017-06-28,mortality_rate,3953.69
+metro,19100,Dallas-Fort Worth,2017-06-28,life_expectancy,3417.75
+metro,19100,Dallas-Fort Worth,2017-06-28,mortality_rate,4071.88
+metro,35620,New York-Newark,2017-06-28,life_expectancy,4880.7
+metro,35620,New York-Newark,2017-06-28,mortality_rate,1239.61
+metro,31080,Los Angeles-Long Beach-Anaheim,2018-12-27,life_expectancy,2185.56
+metro,31080,Los Angeles-Long Beach-Anaheim,2018-12-27,mortality_rate,2615.63
+metro,19100,Dallas-Fort Worth,2018-12-27,life_expectancy,2963.53
+metro,19100,Dallas-Fort Worth,2018-12-27,mortality_rate,4205.58
+metro,35620,New York-Newark,2018-12-27,life_expectancy,1711.97
+metro,35620,New York-Newark,2018-12-27,mortality_rate,4395.12

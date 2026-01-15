@@ -1,0 +1,1286 @@
+[
+  {
+    "dataset_id": "local:csv/population_state_00.csv",
+    "provider_id": "census",
+    "name": "Population State Trends 2000-2005",
+    "description": "Population indicators for state geographies, spanning 2000 through 2005.",
+    "tags": [
+      "population",
+      "demographics",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2000-01-01",
+    "max_date": "2005-12-31",
+    "metrics": [
+      "population",
+      "growth_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/income_county_01.csv",
+    "provider_id": "bls",
+    "name": "Income County Trends 2002-2008",
+    "description": "Income indicators for county geographies, spanning 2002 through 2008.",
+    "tags": [
+      "income",
+      "economy",
+      "wages",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2002-01-01",
+    "max_date": "2008-12-31",
+    "metrics": [
+      "median_income",
+      "household_income"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/housing_city_02.csv",
+    "provider_id": "cdc",
+    "name": "Housing City Trends 2004-2011",
+    "description": "Housing indicators for city geographies, spanning 2004 through 2011.",
+    "tags": [
+      "housing",
+      "rent",
+      "ownership",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2004-01-01",
+    "max_date": "2011-12-31",
+    "metrics": [
+      "median_rent",
+      "home_value"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/employment_metro_03.csv",
+    "provider_id": "dot",
+    "name": "Employment Metro Trends 2006-2014",
+    "description": "Employment indicators for metro geographies, spanning 2006 through 2014.",
+    "tags": [
+      "employment",
+      "labor",
+      "jobs",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2006-01-01",
+    "max_date": "2014-12-31",
+    "metrics": [
+      "unemployment_rate",
+      "labor_participation"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/education_state_04.csv",
+    "provider_id": "eia",
+    "name": "Education State Trends 2008-2013",
+    "description": "Education indicators for state geographies, spanning 2008 through 2013.",
+    "tags": [
+      "education",
+      "schools",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2008-01-01",
+    "max_date": "2013-12-31",
+    "metrics": [
+      "graduation_rate",
+      "college_attainment"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/health_county_05.csv",
+    "provider_id": "census",
+    "name": "Health County Trends 2010-2016",
+    "description": "Health indicators for county geographies, spanning 2010 through 2016.",
+    "tags": [
+      "health",
+      "public_health",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2010-01-01",
+    "max_date": "2016-12-31",
+    "metrics": [
+      "life_expectancy",
+      "mortality_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/crime_city_06.csv",
+    "provider_id": "bls",
+    "name": "Crime City Trends 2012-2019",
+    "description": "Crime indicators for city geographies, spanning 2012 through 2019.",
+    "tags": [
+      "crime",
+      "safety",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2012-01-01",
+    "max_date": "2019-12-31",
+    "metrics": [
+      "crime_rate",
+      "violent_crime_rate"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/transportation_metro_07.csv",
+    "provider_id": "cdc",
+    "name": "Transportation Metro Trends 2014-2022",
+    "description": "Transportation indicators for metro geographies, spanning 2014 through 2022.",
+    "tags": [
+      "transportation",
+      "commute",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2014-01-01",
+    "max_date": "2022-12-31",
+    "metrics": [
+      "average_commute_time",
+      "transit_ridership"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/energy_state_08.csv",
+    "provider_id": "dot",
+    "name": "Energy State Trends 2016-2021",
+    "description": "Energy indicators for state geographies, spanning 2016 through 2021.",
+    "tags": [
+      "energy",
+      "consumption",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2016-01-01",
+    "max_date": "2021-12-31",
+    "metrics": [
+      "electric_usage",
+      "renewable_share"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/agriculture_county_09.csv",
+    "provider_id": "eia",
+    "name": "Agriculture County Trends 2018-2024",
+    "description": "Agriculture indicators for county geographies, spanning 2018 through 2024.",
+    "tags": [
+      "agriculture",
+      "farms",
+      "production",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2018-01-01",
+    "max_date": "2024-12-31",
+    "metrics": [
+      "crop_yield",
+      "farm_count"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/population_city_10.csv",
+    "provider_id": "census",
+    "name": "Population City Trends 2000-2007",
+    "description": "Population indicators for city geographies, spanning 2000 through 2007.",
+    "tags": [
+      "population",
+      "demographics",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2000-01-01",
+    "max_date": "2007-12-31",
+    "metrics": [
+      "population",
+      "growth_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/income_metro_11.csv",
+    "provider_id": "bls",
+    "name": "Income Metro Trends 2002-2010",
+    "description": "Income indicators for metro geographies, spanning 2002 through 2010.",
+    "tags": [
+      "income",
+      "economy",
+      "wages",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2002-01-01",
+    "max_date": "2010-12-31",
+    "metrics": [
+      "median_income",
+      "household_income"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/housing_state_12.csv",
+    "provider_id": "cdc",
+    "name": "Housing State Trends 2004-2009",
+    "description": "Housing indicators for state geographies, spanning 2004 through 2009.",
+    "tags": [
+      "housing",
+      "rent",
+      "ownership",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2004-01-01",
+    "max_date": "2009-12-31",
+    "metrics": [
+      "median_rent",
+      "home_value"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/employment_county_13.csv",
+    "provider_id": "dot",
+    "name": "Employment County Trends 2006-2012",
+    "description": "Employment indicators for county geographies, spanning 2006 through 2012.",
+    "tags": [
+      "employment",
+      "labor",
+      "jobs",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2006-01-01",
+    "max_date": "2012-12-31",
+    "metrics": [
+      "unemployment_rate",
+      "labor_participation"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/education_city_14.csv",
+    "provider_id": "eia",
+    "name": "Education City Trends 2008-2015",
+    "description": "Education indicators for city geographies, spanning 2008 through 2015.",
+    "tags": [
+      "education",
+      "schools",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2008-01-01",
+    "max_date": "2015-12-31",
+    "metrics": [
+      "graduation_rate",
+      "college_attainment"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/health_metro_15.csv",
+    "provider_id": "census",
+    "name": "Health Metro Trends 2010-2018",
+    "description": "Health indicators for metro geographies, spanning 2010 through 2018.",
+    "tags": [
+      "health",
+      "public_health",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2010-01-01",
+    "max_date": "2018-12-31",
+    "metrics": [
+      "life_expectancy",
+      "mortality_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/crime_state_16.csv",
+    "provider_id": "bls",
+    "name": "Crime State Trends 2012-2017",
+    "description": "Crime indicators for state geographies, spanning 2012 through 2017.",
+    "tags": [
+      "crime",
+      "safety",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2012-01-01",
+    "max_date": "2017-12-31",
+    "metrics": [
+      "crime_rate",
+      "violent_crime_rate"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/transportation_county_17.csv",
+    "provider_id": "cdc",
+    "name": "Transportation County Trends 2014-2020",
+    "description": "Transportation indicators for county geographies, spanning 2014 through 2020.",
+    "tags": [
+      "transportation",
+      "commute",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2014-01-01",
+    "max_date": "2020-12-31",
+    "metrics": [
+      "average_commute_time",
+      "transit_ridership"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/energy_city_18.csv",
+    "provider_id": "dot",
+    "name": "Energy City Trends 2016-2023",
+    "description": "Energy indicators for city geographies, spanning 2016 through 2023.",
+    "tags": [
+      "energy",
+      "consumption",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2016-01-01",
+    "max_date": "2023-12-31",
+    "metrics": [
+      "electric_usage",
+      "renewable_share"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/agriculture_metro_19.csv",
+    "provider_id": "eia",
+    "name": "Agriculture Metro Trends 2018-2026",
+    "description": "Agriculture indicators for metro geographies, spanning 2018 through 2026.",
+    "tags": [
+      "agriculture",
+      "farms",
+      "production",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2018-01-01",
+    "max_date": "2026-12-31",
+    "metrics": [
+      "crop_yield",
+      "farm_count"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/population_state_20.csv",
+    "provider_id": "census",
+    "name": "Population State Trends 2000-2005",
+    "description": "Population indicators for state geographies, spanning 2000 through 2005.",
+    "tags": [
+      "population",
+      "demographics",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2000-01-01",
+    "max_date": "2005-12-31",
+    "metrics": [
+      "population",
+      "growth_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/income_county_21.csv",
+    "provider_id": "bls",
+    "name": "Income County Trends 2002-2008",
+    "description": "Income indicators for county geographies, spanning 2002 through 2008.",
+    "tags": [
+      "income",
+      "economy",
+      "wages",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2002-01-01",
+    "max_date": "2008-12-31",
+    "metrics": [
+      "median_income",
+      "household_income"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/housing_city_22.csv",
+    "provider_id": "cdc",
+    "name": "Housing City Trends 2004-2011",
+    "description": "Housing indicators for city geographies, spanning 2004 through 2011.",
+    "tags": [
+      "housing",
+      "rent",
+      "ownership",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2004-01-01",
+    "max_date": "2011-12-31",
+    "metrics": [
+      "median_rent",
+      "home_value"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/employment_metro_23.csv",
+    "provider_id": "dot",
+    "name": "Employment Metro Trends 2006-2014",
+    "description": "Employment indicators for metro geographies, spanning 2006 through 2014.",
+    "tags": [
+      "employment",
+      "labor",
+      "jobs",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2006-01-01",
+    "max_date": "2014-12-31",
+    "metrics": [
+      "unemployment_rate",
+      "labor_participation"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/education_state_24.csv",
+    "provider_id": "eia",
+    "name": "Education State Trends 2008-2013",
+    "description": "Education indicators for state geographies, spanning 2008 through 2013.",
+    "tags": [
+      "education",
+      "schools",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2008-01-01",
+    "max_date": "2013-12-31",
+    "metrics": [
+      "graduation_rate",
+      "college_attainment"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/health_county_25.csv",
+    "provider_id": "census",
+    "name": "Health County Trends 2010-2016",
+    "description": "Health indicators for county geographies, spanning 2010 through 2016.",
+    "tags": [
+      "health",
+      "public_health",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2010-01-01",
+    "max_date": "2016-12-31",
+    "metrics": [
+      "life_expectancy",
+      "mortality_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/crime_city_26.csv",
+    "provider_id": "bls",
+    "name": "Crime City Trends 2012-2019",
+    "description": "Crime indicators for city geographies, spanning 2012 through 2019.",
+    "tags": [
+      "crime",
+      "safety",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2012-01-01",
+    "max_date": "2019-12-31",
+    "metrics": [
+      "crime_rate",
+      "violent_crime_rate"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/transportation_metro_27.csv",
+    "provider_id": "cdc",
+    "name": "Transportation Metro Trends 2014-2022",
+    "description": "Transportation indicators for metro geographies, spanning 2014 through 2022.",
+    "tags": [
+      "transportation",
+      "commute",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2014-01-01",
+    "max_date": "2022-12-31",
+    "metrics": [
+      "average_commute_time",
+      "transit_ridership"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/energy_state_28.csv",
+    "provider_id": "dot",
+    "name": "Energy State Trends 2016-2021",
+    "description": "Energy indicators for state geographies, spanning 2016 through 2021.",
+    "tags": [
+      "energy",
+      "consumption",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2016-01-01",
+    "max_date": "2021-12-31",
+    "metrics": [
+      "electric_usage",
+      "renewable_share"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/agriculture_county_29.csv",
+    "provider_id": "eia",
+    "name": "Agriculture County Trends 2018-2024",
+    "description": "Agriculture indicators for county geographies, spanning 2018 through 2024.",
+    "tags": [
+      "agriculture",
+      "farms",
+      "production",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2018-01-01",
+    "max_date": "2024-12-31",
+    "metrics": [
+      "crop_yield",
+      "farm_count"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/population_city_30.csv",
+    "provider_id": "census",
+    "name": "Population City Trends 2000-2007",
+    "description": "Population indicators for city geographies, spanning 2000 through 2007.",
+    "tags": [
+      "population",
+      "demographics",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2000-01-01",
+    "max_date": "2007-12-31",
+    "metrics": [
+      "population",
+      "growth_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/income_metro_31.csv",
+    "provider_id": "bls",
+    "name": "Income Metro Trends 2002-2010",
+    "description": "Income indicators for metro geographies, spanning 2002 through 2010.",
+    "tags": [
+      "income",
+      "economy",
+      "wages",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2002-01-01",
+    "max_date": "2010-12-31",
+    "metrics": [
+      "median_income",
+      "household_income"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/housing_state_32.csv",
+    "provider_id": "cdc",
+    "name": "Housing State Trends 2004-2009",
+    "description": "Housing indicators for state geographies, spanning 2004 through 2009.",
+    "tags": [
+      "housing",
+      "rent",
+      "ownership",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2004-01-01",
+    "max_date": "2009-12-31",
+    "metrics": [
+      "median_rent",
+      "home_value"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/employment_county_33.csv",
+    "provider_id": "dot",
+    "name": "Employment County Trends 2006-2012",
+    "description": "Employment indicators for county geographies, spanning 2006 through 2012.",
+    "tags": [
+      "employment",
+      "labor",
+      "jobs",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2006-01-01",
+    "max_date": "2012-12-31",
+    "metrics": [
+      "unemployment_rate",
+      "labor_participation"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/education_city_34.csv",
+    "provider_id": "eia",
+    "name": "Education City Trends 2008-2015",
+    "description": "Education indicators for city geographies, spanning 2008 through 2015.",
+    "tags": [
+      "education",
+      "schools",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2008-01-01",
+    "max_date": "2015-12-31",
+    "metrics": [
+      "graduation_rate",
+      "college_attainment"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/health_metro_35.csv",
+    "provider_id": "census",
+    "name": "Health Metro Trends 2010-2018",
+    "description": "Health indicators for metro geographies, spanning 2010 through 2018.",
+    "tags": [
+      "health",
+      "public_health",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2010-01-01",
+    "max_date": "2018-12-31",
+    "metrics": [
+      "life_expectancy",
+      "mortality_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/crime_state_36.csv",
+    "provider_id": "bls",
+    "name": "Crime State Trends 2012-2017",
+    "description": "Crime indicators for state geographies, spanning 2012 through 2017.",
+    "tags": [
+      "crime",
+      "safety",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2012-01-01",
+    "max_date": "2017-12-31",
+    "metrics": [
+      "crime_rate",
+      "violent_crime_rate"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/transportation_county_37.csv",
+    "provider_id": "cdc",
+    "name": "Transportation County Trends 2014-2020",
+    "description": "Transportation indicators for county geographies, spanning 2014 through 2020.",
+    "tags": [
+      "transportation",
+      "commute",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2014-01-01",
+    "max_date": "2020-12-31",
+    "metrics": [
+      "average_commute_time",
+      "transit_ridership"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/energy_city_38.csv",
+    "provider_id": "dot",
+    "name": "Energy City Trends 2016-2023",
+    "description": "Energy indicators for city geographies, spanning 2016 through 2023.",
+    "tags": [
+      "energy",
+      "consumption",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2016-01-01",
+    "max_date": "2023-12-31",
+    "metrics": [
+      "electric_usage",
+      "renewable_share"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/agriculture_metro_39.csv",
+    "provider_id": "eia",
+    "name": "Agriculture Metro Trends 2018-2026",
+    "description": "Agriculture indicators for metro geographies, spanning 2018 through 2026.",
+    "tags": [
+      "agriculture",
+      "farms",
+      "production",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2018-01-01",
+    "max_date": "2026-12-31",
+    "metrics": [
+      "crop_yield",
+      "farm_count"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/population_state_40.csv",
+    "provider_id": "census",
+    "name": "Population State Trends 2000-2005",
+    "description": "Population indicators for state geographies, spanning 2000 through 2005.",
+    "tags": [
+      "population",
+      "demographics",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2000-01-01",
+    "max_date": "2005-12-31",
+    "metrics": [
+      "population",
+      "growth_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/income_county_41.csv",
+    "provider_id": "bls",
+    "name": "Income County Trends 2002-2008",
+    "description": "Income indicators for county geographies, spanning 2002 through 2008.",
+    "tags": [
+      "income",
+      "economy",
+      "wages",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2002-01-01",
+    "max_date": "2008-12-31",
+    "metrics": [
+      "median_income",
+      "household_income"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/housing_city_42.csv",
+    "provider_id": "cdc",
+    "name": "Housing City Trends 2004-2011",
+    "description": "Housing indicators for city geographies, spanning 2004 through 2011.",
+    "tags": [
+      "housing",
+      "rent",
+      "ownership",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2004-01-01",
+    "max_date": "2011-12-31",
+    "metrics": [
+      "median_rent",
+      "home_value"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/employment_metro_43.csv",
+    "provider_id": "dot",
+    "name": "Employment Metro Trends 2006-2014",
+    "description": "Employment indicators for metro geographies, spanning 2006 through 2014.",
+    "tags": [
+      "employment",
+      "labor",
+      "jobs",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2006-01-01",
+    "max_date": "2014-12-31",
+    "metrics": [
+      "unemployment_rate",
+      "labor_participation"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/education_state_44.csv",
+    "provider_id": "eia",
+    "name": "Education State Trends 2008-2013",
+    "description": "Education indicators for state geographies, spanning 2008 through 2013.",
+    "tags": [
+      "education",
+      "schools",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2008-01-01",
+    "max_date": "2013-12-31",
+    "metrics": [
+      "graduation_rate",
+      "college_attainment"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/health_county_45.csv",
+    "provider_id": "census",
+    "name": "Health County Trends 2010-2016",
+    "description": "Health indicators for county geographies, spanning 2010 through 2016.",
+    "tags": [
+      "health",
+      "public_health",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2010-01-01",
+    "max_date": "2016-12-31",
+    "metrics": [
+      "life_expectancy",
+      "mortality_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/crime_city_46.csv",
+    "provider_id": "bls",
+    "name": "Crime City Trends 2012-2019",
+    "description": "Crime indicators for city geographies, spanning 2012 through 2019.",
+    "tags": [
+      "crime",
+      "safety",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2012-01-01",
+    "max_date": "2019-12-31",
+    "metrics": [
+      "crime_rate",
+      "violent_crime_rate"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/transportation_metro_47.csv",
+    "provider_id": "cdc",
+    "name": "Transportation Metro Trends 2014-2022",
+    "description": "Transportation indicators for metro geographies, spanning 2014 through 2022.",
+    "tags": [
+      "transportation",
+      "commute",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2014-01-01",
+    "max_date": "2022-12-31",
+    "metrics": [
+      "average_commute_time",
+      "transit_ridership"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/energy_state_48.csv",
+    "provider_id": "dot",
+    "name": "Energy State Trends 2016-2021",
+    "description": "Energy indicators for state geographies, spanning 2016 through 2021.",
+    "tags": [
+      "energy",
+      "consumption",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2016-01-01",
+    "max_date": "2021-12-31",
+    "metrics": [
+      "electric_usage",
+      "renewable_share"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/agriculture_county_49.csv",
+    "provider_id": "eia",
+    "name": "Agriculture County Trends 2018-2024",
+    "description": "Agriculture indicators for county geographies, spanning 2018 through 2024.",
+    "tags": [
+      "agriculture",
+      "farms",
+      "production",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2018-01-01",
+    "max_date": "2024-12-31",
+    "metrics": [
+      "crop_yield",
+      "farm_count"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/population_city_50.csv",
+    "provider_id": "census",
+    "name": "Population City Trends 2000-2007",
+    "description": "Population indicators for city geographies, spanning 2000 through 2007.",
+    "tags": [
+      "population",
+      "demographics",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2000-01-01",
+    "max_date": "2007-12-31",
+    "metrics": [
+      "population",
+      "growth_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/income_metro_51.csv",
+    "provider_id": "bls",
+    "name": "Income Metro Trends 2002-2010",
+    "description": "Income indicators for metro geographies, spanning 2002 through 2010.",
+    "tags": [
+      "income",
+      "economy",
+      "wages",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2002-01-01",
+    "max_date": "2010-12-31",
+    "metrics": [
+      "median_income",
+      "household_income"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/housing_state_52.csv",
+    "provider_id": "cdc",
+    "name": "Housing State Trends 2004-2009",
+    "description": "Housing indicators for state geographies, spanning 2004 through 2009.",
+    "tags": [
+      "housing",
+      "rent",
+      "ownership",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2004-01-01",
+    "max_date": "2009-12-31",
+    "metrics": [
+      "median_rent",
+      "home_value"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/employment_county_53.csv",
+    "provider_id": "dot",
+    "name": "Employment County Trends 2006-2012",
+    "description": "Employment indicators for county geographies, spanning 2006 through 2012.",
+    "tags": [
+      "employment",
+      "labor",
+      "jobs",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2006-01-01",
+    "max_date": "2012-12-31",
+    "metrics": [
+      "unemployment_rate",
+      "labor_participation"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/education_city_54.csv",
+    "provider_id": "eia",
+    "name": "Education City Trends 2008-2015",
+    "description": "Education indicators for city geographies, spanning 2008 through 2015.",
+    "tags": [
+      "education",
+      "schools",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2008-01-01",
+    "max_date": "2015-12-31",
+    "metrics": [
+      "graduation_rate",
+      "college_attainment"
+    ],
+    "source": "EIA open data program"
+  },
+  {
+    "dataset_id": "local:csv/health_metro_55.csv",
+    "provider_id": "census",
+    "name": "Health Metro Trends 2010-2018",
+    "description": "Health indicators for metro geographies, spanning 2010 through 2018.",
+    "tags": [
+      "health",
+      "public_health",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2010-01-01",
+    "max_date": "2018-12-31",
+    "metrics": [
+      "life_expectancy",
+      "mortality_rate"
+    ],
+    "source": "CENSUS open data program"
+  },
+  {
+    "dataset_id": "local:csv/crime_state_56.csv",
+    "provider_id": "bls",
+    "name": "Crime State Trends 2012-2017",
+    "description": "Crime indicators for state geographies, spanning 2012 through 2017.",
+    "tags": [
+      "crime",
+      "safety",
+      "state"
+    ],
+    "supported_geos": [
+      "state"
+    ],
+    "min_date": "2012-01-01",
+    "max_date": "2017-12-31",
+    "metrics": [
+      "crime_rate",
+      "violent_crime_rate"
+    ],
+    "source": "BLS open data program"
+  },
+  {
+    "dataset_id": "local:csv/transportation_county_57.csv",
+    "provider_id": "cdc",
+    "name": "Transportation County Trends 2014-2020",
+    "description": "Transportation indicators for county geographies, spanning 2014 through 2020.",
+    "tags": [
+      "transportation",
+      "commute",
+      "county"
+    ],
+    "supported_geos": [
+      "county"
+    ],
+    "min_date": "2014-01-01",
+    "max_date": "2020-12-31",
+    "metrics": [
+      "average_commute_time",
+      "transit_ridership"
+    ],
+    "source": "CDC open data program"
+  },
+  {
+    "dataset_id": "local:csv/energy_city_58.csv",
+    "provider_id": "dot",
+    "name": "Energy City Trends 2016-2023",
+    "description": "Energy indicators for city geographies, spanning 2016 through 2023.",
+    "tags": [
+      "energy",
+      "consumption",
+      "city"
+    ],
+    "supported_geos": [
+      "city"
+    ],
+    "min_date": "2016-01-01",
+    "max_date": "2023-12-31",
+    "metrics": [
+      "electric_usage",
+      "renewable_share"
+    ],
+    "source": "DOT open data program"
+  },
+  {
+    "dataset_id": "local:csv/agriculture_metro_59.csv",
+    "provider_id": "eia",
+    "name": "Agriculture Metro Trends 2018-2026",
+    "description": "Agriculture indicators for metro geographies, spanning 2018 through 2026.",
+    "tags": [
+      "agriculture",
+      "farms",
+      "production",
+      "metro"
+    ],
+    "supported_geos": [
+      "metro"
+    ],
+    "min_date": "2018-01-01",
+    "max_date": "2026-12-31",
+    "metrics": [
+      "crop_yield",
+      "farm_count"
+    ],
+    "source": "EIA open data program"
+  }
+]

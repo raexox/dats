@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+state,CA,California,2000-01-01,population,2368.36
+state,CA,California,2000-01-01,growth_rate,3277.04
+state,TX,Texas,2000-01-01,population,180.43
+state,TX,Texas,2000-01-01,growth_rate,3031.09
+state,NY,New York,2000-01-01,population,2078.53
+state,NY,New York,2000-01-01,growth_rate,2402.23
+state,CA,California,2000-12-31,population,2020.29
+state,CA,California,2000-12-31,growth_rate,2822.22
+state,TX,Texas,2000-12-31,population,3620.38
+state,TX,Texas,2000-12-31,growth_rate,2362.28
+state,NY,New York,2000-12-31,population,2904.37
+state,NY,New York,2000-12-31,growth_rate,1577.83
+state,CA,California,2001-12-31,population,2780.86
+state,CA,California,2001-12-31,growth_rate,2591.21
+state,TX,Texas,2001-12-31,population,3734.78
+state,TX,Texas,2001-12-31,growth_rate,3016.81
+state,NY,New York,2001-12-31,population,1783.9
+state,NY,New York,2001-12-31,growth_rate,4061.07
+state,CA,California,2002-12-31,population,4292.22
+state,CA,California,2002-12-31,growth_rate,98.85
+state,TX,Texas,2002-12-31,population,4798.2
+state,TX,Texas,2002-12-31,growth_rate,1695.47
+state,NY,New York,2002-12-31,population,3248.44
+state,NY,New York,2002-12-31,growth_rate,3660.47
+state,CA,California,2003-12-31,population,736.88
+state,CA,California,2003-12-31,growth_rate,4747.27
+state,TX,Texas,2003-12-31,population,3955.32
+state,TX,Texas,2003-12-31,growth_rate,2144.09
+state,NY,New York,2003-12-31,population,4167.29
+state,NY,New York,2003-12-31,growth_rate,1368.33
+state,CA,California,2004-12-30,population,96.15
+state,CA,California,2004-12-30,growth_rate,1606.85
+state,TX,Texas,2004-12-30,population,3146.03
+state,TX,Texas,2004-12-30,growth_rate,1230.74
+state,NY,New York,2004-12-30,population,2355.29
+state,NY,New York,2004-12-30,growth_rate,2212.33
+state,CA,California,2005-12-30,population,4877.74
+state,CA,California,2005-12-30,growth_rate,4890.7
+state,TX,Texas,2005-12-30,population,1052.1
+state,TX,Texas,2005-12-30,growth_rate,1497.7
+state,NY,New York,2005-12-30,population,1337.38
+state,NY,New York,2005-12-30,growth_rate,1196.27

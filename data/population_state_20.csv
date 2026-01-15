@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+state,CA,California,2000-01-01,population,1699.4
+state,CA,California,2000-01-01,growth_rate,903.03
+state,TX,Texas,2000-01-01,population,388.95
+state,TX,Texas,2000-01-01,growth_rate,1622.92
+state,NY,New York,2000-01-01,population,4510.65
+state,NY,New York,2000-01-01,growth_rate,997.17
+state,CA,California,2000-12-31,population,4038.61
+state,CA,California,2000-12-31,growth_rate,3376.0
+state,TX,Texas,2000-12-31,population,1542.94
+state,TX,Texas,2000-12-31,growth_rate,4787.97
+state,NY,New York,2000-12-31,population,1302.76
+state,NY,New York,2000-12-31,growth_rate,3191.12
+state,CA,California,2001-12-31,population,1777.64
+state,CA,California,2001-12-31,growth_rate,4811.91
+state,TX,Texas,2001-12-31,population,1200.84
+state,TX,Texas,2001-12-31,growth_rate,3325.23
+state,NY,New York,2001-12-31,population,3462.22
+state,NY,New York,2001-12-31,growth_rate,4146.14
+state,CA,California,2002-12-31,population,2630.39
+state,CA,California,2002-12-31,growth_rate,2972.81
+state,TX,Texas,2002-12-31,population,4118.53
+state,TX,Texas,2002-12-31,growth_rate,1098.32
+state,NY,New York,2002-12-31,population,4514.8
+state,NY,New York,2002-12-31,growth_rate,3033.92
+state,CA,California,2003-12-31,population,4825.92
+state,CA,California,2003-12-31,growth_rate,1489.1
+state,TX,Texas,2003-12-31,population,3511.98
+state,TX,Texas,2003-12-31,growth_rate,2783.7
+state,NY,New York,2003-12-31,population,3014.87
+state,NY,New York,2003-12-31,growth_rate,4997.37
+state,CA,California,2004-12-30,population,1548.8
+state,CA,California,2004-12-30,growth_rate,641.29
+state,TX,Texas,2004-12-30,population,1301.05
+state,TX,Texas,2004-12-30,growth_rate,974.9
+state,NY,New York,2004-12-30,population,4332.34
+state,NY,New York,2004-12-30,growth_rate,742.99
+state,CA,California,2005-12-30,population,3254.73
+state,CA,California,2005-12-30,growth_rate,2378.16
+state,TX,Texas,2005-12-30,population,3843.93
+state,TX,Texas,2005-12-30,growth_rate,928.25
+state,NY,New York,2005-12-30,population,1696.73
+state,NY,New York,2005-12-30,growth_rate,4906.0

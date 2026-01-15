@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+metro,31080,Los Angeles-Long Beach-Anaheim,2006-01-01,unemployment_rate,2232.48
+metro,31080,Los Angeles-Long Beach-Anaheim,2006-01-01,labor_participation,2123.21
+metro,19100,Dallas-Fort Worth,2006-01-01,unemployment_rate,3365.0
+metro,19100,Dallas-Fort Worth,2006-01-01,labor_participation,50.92
+metro,35620,New York-Newark,2006-01-01,unemployment_rate,839.18
+metro,35620,New York-Newark,2006-01-01,labor_participation,2980.91
+metro,31080,Los Angeles-Long Beach-Anaheim,2007-07-02,unemployment_rate,2127.11
+metro,31080,Los Angeles-Long Beach-Anaheim,2007-07-02,labor_participation,2348.41
+metro,19100,Dallas-Fort Worth,2007-07-02,unemployment_rate,4539.19
+metro,19100,Dallas-Fort Worth,2007-07-02,labor_participation,389.54
+metro,35620,New York-Newark,2007-07-02,unemployment_rate,4709.56
+metro,35620,New York-Newark,2007-07-02,labor_participation,2455.19
+metro,31080,Los Angeles-Long Beach-Anaheim,2008-12-30,unemployment_rate,4602.19
+metro,31080,Los Angeles-Long Beach-Anaheim,2008-12-30,labor_participation,4037.18
+metro,19100,Dallas-Fort Worth,2008-12-30,unemployment_rate,409.27
+metro,19100,Dallas-Fort Worth,2008-12-30,labor_participation,2185.75
+metro,35620,New York-Newark,2008-12-30,unemployment_rate,1598.03
+metro,35620,New York-Newark,2008-12-30,labor_participation,1678.63
+metro,31080,Los Angeles-Long Beach-Anaheim,2010-06-30,unemployment_rate,1410.37
+metro,31080,Los Angeles-Long Beach-Anaheim,2010-06-30,labor_participation,2540.61
+metro,19100,Dallas-Fort Worth,2010-06-30,unemployment_rate,845.74
+metro,19100,Dallas-Fort Worth,2010-06-30,labor_participation,3451.23
+metro,35620,New York-Newark,2010-06-30,unemployment_rate,544.2
+metro,35620,New York-Newark,2010-06-30,labor_participation,589.48
+metro,31080,Los Angeles-Long Beach-Anaheim,2011-12-29,unemployment_rate,1496.51
+metro,31080,Los Angeles-Long Beach-Anaheim,2011-12-29,labor_participation,2773.31
+metro,19100,Dallas-Fort Worth,2011-12-29,unemployment_rate,2482.94
+metro,19100,Dallas-Fort Worth,2011-12-29,labor_participation,2038.75
+metro,35620,New York-Newark,2011-12-29,unemployment_rate,241.05
+metro,35620,New York-Newark,2011-12-29,labor_participation,45.31
+metro,31080,Los Angeles-Long Beach-Anaheim,2013-06-28,unemployment_rate,1469.56
+metro,31080,Los Angeles-Long Beach-Anaheim,2013-06-28,labor_participation,1504.47
+metro,19100,Dallas-Fort Worth,2013-06-28,unemployment_rate,3424.38
+metro,19100,Dallas-Fort Worth,2013-06-28,labor_participation,1658.17
+metro,35620,New York-Newark,2013-06-28,unemployment_rate,4928.34
+metro,35620,New York-Newark,2013-06-28,labor_participation,3878.83
+metro,31080,Los Angeles-Long Beach-Anaheim,2014-12-27,unemployment_rate,3229.06
+metro,31080,Los Angeles-Long Beach-Anaheim,2014-12-27,labor_participation,4331.05
+metro,19100,Dallas-Fort Worth,2014-12-27,unemployment_rate,4560.23
+metro,19100,Dallas-Fort Worth,2014-12-27,labor_participation,587.77
+metro,35620,New York-Newark,2014-12-27,unemployment_rate,3722.5
+metro,35620,New York-Newark,2014-12-27,labor_participation,1876.56

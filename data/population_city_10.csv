@@ -1,0 +1,43 @@
+geo_level,geo_id,geo_name,date,metric,value
+city,0667000,Los Angeles,2000-01-01,population,2143.21
+city,0667000,Los Angeles,2000-01-01,growth_rate,1538.83
+city,4819000,Dallas,2000-01-01,population,1167.96
+city,4819000,Dallas,2000-01-01,growth_rate,2953.16
+city,3651000,New York City,2000-01-01,population,1859.7
+city,3651000,New York City,2000-01-01,growth_rate,1682.37
+city,0667000,Los Angeles,2001-05-01,population,3501.14
+city,0667000,Los Angeles,2001-05-01,growth_rate,3362.33
+city,4819000,Dallas,2001-05-01,population,1450.18
+city,4819000,Dallas,2001-05-01,growth_rate,4613.65
+city,3651000,New York City,2001-05-01,population,333.24
+city,3651000,New York City,2001-05-01,growth_rate,3549.56
+city,0667000,Los Angeles,2002-08-30,population,3920.63
+city,0667000,Los Angeles,2002-08-30,growth_rate,1624.49
+city,4819000,Dallas,2002-08-30,population,2446.23
+city,4819000,Dallas,2002-08-30,growth_rate,4849.91
+city,3651000,New York City,2002-08-30,population,2914.96
+city,3651000,New York City,2002-08-30,growth_rate,702.01
+city,0667000,Los Angeles,2003-12-29,population,4546.32
+city,0667000,Los Angeles,2003-12-29,growth_rate,4366.67
+city,4819000,Dallas,2003-12-29,population,983.0
+city,4819000,Dallas,2003-12-29,growth_rate,3361.9
+city,3651000,New York City,2003-12-29,population,2128.94
+city,3651000,New York City,2003-12-29,growth_rate,3931.91
+city,0667000,Los Angeles,2005-04-28,population,2978.16
+city,0667000,Los Angeles,2005-04-28,growth_rate,1249.79
+city,4819000,Dallas,2005-04-28,population,177.29
+city,4819000,Dallas,2005-04-28,growth_rate,3436.7
+city,3651000,New York City,2005-04-28,population,2691.37
+city,3651000,New York City,2005-04-28,growth_rate,2059.07
+city,0667000,Los Angeles,2006-08-27,population,1572.0
+city,0667000,Los Angeles,2006-08-27,growth_rate,3750.13
+city,4819000,Dallas,2006-08-27,population,2224.91
+city,4819000,Dallas,2006-08-27,growth_rate,3380.63
+city,3651000,New York City,2006-08-27,population,4053.29
+city,3651000,New York City,2006-08-27,growth_rate,1361.95
+city,0667000,Los Angeles,2007-12-26,population,2154.18
+city,0667000,Los Angeles,2007-12-26,growth_rate,2397.1
+city,4819000,Dallas,2007-12-26,population,2518.96
+city,4819000,Dallas,2007-12-26,growth_rate,498.87
+city,3651000,New York City,2007-12-26,population,707.06
+city,3651000,New York City,2007-12-26,growth_rate,3723.61

@@ -1,5 +1,6 @@
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 import os
+from pathlib import Path
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, Header, HTTPException, status
@@ -12,6 +13,10 @@ from bson import ObjectId
 
 from models import (
     DatasetRow,
+    DatasetFetchRequest,
+    DatasetResult,
+    PlannerResponse,
+    UserQuery,
     QueryHistoryItem,
     QueryRequest,
     QueryResponse,
@@ -21,6 +26,12 @@ from models import (
     UserLogin,
     UserPublic,
 )
+from catalog.models import CatalogSearchResult
+from catalog.search import parse_date_param
+from catalog.store import CatalogStore
+from providers.local_csv import LocalCsvProvider
+from providers.registry import ProviderRegistry
+from planner.planner import DatasetPlanner
 
 
 load_dotenv()
@@ -36,6 +47,17 @@ mongo_uri = os.getenv("MONGODB_URI")
 mongo_db_name = os.getenv("MONGODB_DB", "data_visualization")
 jwt_secret = os.getenv("JWT_SECRET")
 jwt_expires_minutes = int(os.getenv("JWT_EXPIRES_MINUTES", "120"))
+_backend_root = Path(__file__).resolve().parent
+_catalog_env = os.getenv("CATALOG_DIR")
+if _catalog_env:
+    _catalog_path = Path(_catalog_env)
+    if not _catalog_path.is_absolute():
+        _catalog_path = (_backend_root / _catalog_path).resolve()
+    catalog_dir = _catalog_path
+else:
+    catalog_dir = (_backend_root / ".." / "catalog").resolve()
+data_dir = Path(os.getenv("DATA_DIR", _backend_root / ".." / "data")).resolve()
+catalog_dev_reload = os.getenv("CATALOG_DEV_RELOAD", "0").lower() in {"1", "true", "yes"}
 
 if not mongo_uri:
     raise RuntimeError("MONGODB_URI is required for auth.")
@@ -64,6 +86,14 @@ app.add_middleware(
     allow_headers=["*"],
     allow_credentials=True,
 )
+
+
+@app.on_event("startup")
+def load_catalog() -> None:
+    store = CatalogStore(catalog_dir)
+    store.load()
+    app.state.catalog_store = store
+    app.state.provider_registry = ProviderRegistry([LocalCsvProvider(data_dir)])
 
 
 @app.get("/health")
@@ -227,3 +257,57 @@ def list_queries(limit: int = 20, authorization: str | None = Header(default=Non
             )
         )
     return items
+
+
+@app.get("/catalog/search", response_model=list[CatalogSearchResult])
+def search_catalog(
+    q: str | None = None,
+    geo: str | None = None,
+    start: str | None = None,
+    end: str | None = None,
+    limit: int = 20,
+):
+    try:
+        start_date = parse_date_param(start)
+        end_date = parse_date_param(end)
+    except ValueError as exc:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid date format.") from exc
+    if start_date and end_date and start_date > end_date:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="start must be <= end.")
+    safe_limit = max(1, min(limit, 100))
+    store: CatalogStore = app.state.catalog_store
+    return store.search(q, geo, start_date, end_date, safe_limit)
+
+
+@app.post("/catalog/reload")
+def reload_catalog():
+    if not catalog_dev_reload:
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Catalog reload disabled.")
+    store: CatalogStore = app.state.catalog_store
+    store.load()
+    return {"status": "ok", "count": len(store.entries)}
+
+
+@app.post("/datasets/fetch-one", response_model=DatasetResult)
+def fetch_one_dataset(payload: DatasetFetchRequest):
+    registry: ProviderRegistry = app.state.provider_registry
+    provider = registry.get_provider(payload.dataset_id)
+    if not provider:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No provider found.")
+    return provider.fetch(payload.dataset_id, payload.params)
+
+
+@app.post("/planner/plan", response_model=PlannerResponse)
+def plan_datasets(payload: UserQuery, top_k: int = 25):
+    if payload.start_date < date(2020, 1, 1):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="start_date must be on or after 2020-01-01.",
+        )
+    if payload.end_date < payload.start_date:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="end_date must be >= start_date.")
+    store: CatalogStore = app.state.catalog_store
+    planner = DatasetPlanner(store.entries)
+    safe_top_k = max(1, min(top_k, 100))
+    candidates = planner.plan(payload, safe_top_k)
+    return PlannerResponse(top_k=safe_top_k, candidates=candidates)
