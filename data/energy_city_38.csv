@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-city,0667000,Los Angeles,2016-01-01,electric_usage,4767.36
-city,0667000,Los Angeles,2016-01-01,renewable_share,837.13
-city,4819000,Dallas,2016-01-01,electric_usage,1959.72
-city,4819000,Dallas,2016-01-01,renewable_share,2902.65
-city,3651000,New York City,2016-01-01,electric_usage,2598.16
-city,3651000,New York City,2016-01-01,renewable_share,193.78
-city,0667000,Los Angeles,2017-05-01,electric_usage,2460.14
-city,0667000,Los Angeles,2017-05-01,renewable_share,1581.17
-city,4819000,Dallas,2017-05-01,electric_usage,4711.9
-city,4819000,Dallas,2017-05-01,renewable_share,4520.19
-city,3651000,New York City,2017-05-01,electric_usage,1573.6
-city,3651000,New York City,2017-05-01,renewable_share,1085.03
-city,0667000,Los Angeles,2018-08-30,electric_usage,2433.29
-city,0667000,Los Angeles,2018-08-30,renewable_share,3137.43
-city,4819000,Dallas,2018-08-30,electric_usage,4662.81
-city,4819000,Dallas,2018-08-30,renewable_share,4858.39
-city,3651000,New York City,2018-08-30,electric_usage,45.54
-city,3651000,New York City,2018-08-30,renewable_share,3458.44
-city,0667000,Los Angeles,2019-12-29,electric_usage,4012.03
-city,0667000,Los Angeles,2019-12-29,renewable_share,163.22
-city,4819000,Dallas,2019-12-29,electric_usage,3644.81
-city,4819000,Dallas,2019-12-29,renewable_share,1835.44
-city,3651000,New York City,2019-12-29,electric_usage,844.17
-city,3651000,New York City,2019-12-29,renewable_share,1325.38
-city,0667000,Los Angeles,2021-04-28,electric_usage,4588.04
-city,0667000,Los Angeles,2021-04-28,renewable_share,3320.96
-city,4819000,Dallas,2021-04-28,electric_usage,4321.31
-city,4819000,Dallas,2021-04-28,renewable_share,2930.9
-city,3651000,New York City,2021-04-28,electric_usage,3812.47
-city,3651000,New York City,2021-04-28,renewable_share,893.99
-city,0667000,Los Angeles,2022-08-27,electric_usage,902.89
-city,0667000,Los Angeles,2022-08-27,renewable_share,699.67
-city,4819000,Dallas,2022-08-27,electric_usage,2833.43
-city,4819000,Dallas,2022-08-27,renewable_share,2273.11
-city,3651000,New York City,2022-08-27,electric_usage,4469.7
-city,3651000,New York City,2022-08-27,renewable_share,4080.42
-city,0667000,Los Angeles,2023-12-26,electric_usage,2979.23
-city,0667000,Los Angeles,2023-12-26,renewable_share,665.84
-city,4819000,Dallas,2023-12-26,electric_usage,301.83
-city,4819000,Dallas,2023-12-26,renewable_share,3368.37
-city,3651000,New York City,2023-12-26,electric_usage,177.0
-city,3651000,New York City,2023-12-26,renewable_share,28.31
+city,0667000,Los Angeles,2023-01-01,electric_usage,4767.36
+city,0667000,Los Angeles,2023-01-01,renewable_share,837.13
+city,4819000,Dallas,2023-01-01,electric_usage,1959.72
+city,4819000,Dallas,2023-01-01,renewable_share,2902.65
+city,3651000,New York City,2023-01-01,electric_usage,2598.16
+city,3651000,New York City,2023-01-01,renewable_share,193.78
+city,0667000,Los Angeles,2023-11-01,electric_usage,2460.14
+city,0667000,Los Angeles,2023-11-01,renewable_share,1581.17
+city,4819000,Dallas,2023-11-01,electric_usage,4711.9
+city,4819000,Dallas,2023-11-01,renewable_share,4520.19
+city,3651000,New York City,2023-11-01,electric_usage,1573.6
+city,3651000,New York City,2023-11-01,renewable_share,1085.03
+city,0667000,Los Angeles,2024-08-31,electric_usage,2433.29
+city,0667000,Los Angeles,2024-08-31,renewable_share,3137.43
+city,4819000,Dallas,2024-08-31,electric_usage,4662.81
+city,4819000,Dallas,2024-08-31,renewable_share,4858.39
+city,3651000,New York City,2024-08-31,electric_usage,45.54
+city,3651000,New York City,2024-08-31,renewable_share,3458.44
+city,0667000,Los Angeles,2025-07-01,electric_usage,4012.03
+city,0667000,Los Angeles,2025-07-01,renewable_share,163.22
+city,4819000,Dallas,2025-07-01,electric_usage,3644.81
+city,4819000,Dallas,2025-07-01,renewable_share,1835.44
+city,3651000,New York City,2025-07-01,electric_usage,844.17
+city,3651000,New York City,2025-07-01,renewable_share,1325.38
+city,0667000,Los Angeles,2026-05-01,electric_usage,4588.04
+city,0667000,Los Angeles,2026-05-01,renewable_share,3320.96
+city,4819000,Dallas,2026-05-01,electric_usage,4321.31
+city,4819000,Dallas,2026-05-01,renewable_share,2930.9
+city,3651000,New York City,2026-05-01,electric_usage,3812.47
+city,3651000,New York City,2026-05-01,renewable_share,893.99
+city,0667000,Los Angeles,2027-03-01,electric_usage,902.89
+city,0667000,Los Angeles,2027-03-01,renewable_share,699.67
+city,4819000,Dallas,2027-03-01,electric_usage,2833.43
+city,4819000,Dallas,2027-03-01,renewable_share,2273.11
+city,3651000,New York City,2027-03-01,electric_usage,4469.7
+city,3651000,New York City,2027-03-01,renewable_share,4080.42
+city,0667000,Los Angeles,2027-12-30,electric_usage,2979.23
+city,0667000,Los Angeles,2027-12-30,renewable_share,665.84
+city,4819000,Dallas,2027-12-30,electric_usage,301.83
+city,4819000,Dallas,2027-12-30,renewable_share,3368.37
+city,3651000,New York City,2027-12-30,electric_usage,177.0
+city,3651000,New York City,2027-12-30,renewable_share,28.31

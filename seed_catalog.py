@@ -72,8 +72,8 @@ GEOS = ["state", "county", "city", "metro"]
 
 
 def build_entry(index: int, topic: dict, provider: str, geo: str) -> dict:
-    year_start = 2000 + (index % 10) * 2
-    year_end = year_start + 5 + (index % 4)
+    year_start = 2020 + (index % 5)
+    year_end = year_start + 2 + (index % 3)
     name = f"{topic['name']} {geo.title()} Trends {year_start}-{year_end}"
     description = (
         f"{topic['name']} indicators for {geo} geographies, spanning {year_start} through {year_end}."
@@ -101,7 +101,23 @@ def generate_entries(count: int, seed: int) -> list[dict]:
         provider = PROVIDERS[i % len(PROVIDERS)]
         geo = GEOS[i % len(GEOS)]
         entries.append(build_entry(i, topic, provider, geo))
+    entries.append(_broken_entry())
     return entries
+
+
+def _broken_entry() -> dict:
+    return {
+        "dataset_id": "missing:csv/broken_population.csv",
+        "provider_id": "broken",
+        "name": "Population State Trends (Missing Source)",
+        "description": "Intentional missing dataset to exercise error handling.",
+        "tags": ["population", "missing", "debug"],
+        "supported_geos": ["state"],
+        "min_date": date(2020, 1, 1).isoformat(),
+        "max_date": date(2024, 12, 31).isoformat(),
+        "metrics": ["population"],
+        "source": "Simulated failure",
+    }
 
 
 def write_catalog(entries: list[dict], output_path: Path) -> None:

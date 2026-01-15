@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-state,CA,California,2000-01-01,population,3066.5
-state,CA,California,2000-01-01,growth_rate,1933.03
-state,TX,Texas,2000-01-01,population,1273.58
-state,TX,Texas,2000-01-01,growth_rate,349.44
-state,NY,New York,2000-01-01,population,2141.8
-state,NY,New York,2000-01-01,growth_rate,874.32
-state,CA,California,2000-12-31,population,3358.93
-state,CA,California,2000-12-31,growth_rate,3911.04
-state,TX,Texas,2000-12-31,population,2455.11
-state,TX,Texas,2000-12-31,growth_rate,399.0
-state,NY,New York,2000-12-31,population,228.85
-state,NY,New York,2000-12-31,growth_rate,3331.16
-state,CA,California,2001-12-31,population,4787.38
-state,CA,California,2001-12-31,growth_rate,1095.99
-state,TX,Texas,2001-12-31,population,1121.57
-state,TX,Texas,2001-12-31,growth_rate,88.26
-state,NY,New York,2001-12-31,population,1251.88
-state,NY,New York,2001-12-31,growth_rate,1466.66
-state,CA,California,2002-12-31,population,385.42
-state,CA,California,2002-12-31,growth_rate,4189.16
-state,TX,Texas,2002-12-31,population,261.91
-state,TX,Texas,2002-12-31,growth_rate,3770.4
-state,NY,New York,2002-12-31,population,3073.09
-state,NY,New York,2002-12-31,growth_rate,103.4
-state,CA,California,2003-12-31,population,3585.51
-state,CA,California,2003-12-31,growth_rate,1008.14
-state,TX,Texas,2003-12-31,population,4442.15
-state,TX,Texas,2003-12-31,growth_rate,4985.4
-state,NY,New York,2003-12-31,population,140.91
-state,NY,New York,2003-12-31,growth_rate,2954.84
-state,CA,California,2004-12-30,population,4533.21
-state,CA,California,2004-12-30,growth_rate,3855.31
-state,TX,Texas,2004-12-30,population,449.93
-state,TX,Texas,2004-12-30,growth_rate,4950.85
-state,NY,New York,2004-12-30,population,368.43
-state,NY,New York,2004-12-30,growth_rate,3047.25
-state,CA,California,2005-12-30,population,4962.27
-state,CA,California,2005-12-30,growth_rate,4588.13
-state,TX,Texas,2005-12-30,population,1991.55
-state,TX,Texas,2005-12-30,growth_rate,4303.15
-state,NY,New York,2005-12-30,population,1695.35
-state,NY,New York,2005-12-30,growth_rate,4869.21
+state,CA,California,2020-01-01,population,3066.5
+state,CA,California,2020-01-01,growth_rate,1933.03
+state,TX,Texas,2020-01-01,population,1273.58
+state,TX,Texas,2020-01-01,growth_rate,349.44
+state,NY,New York,2020-01-01,population,2141.8
+state,NY,New York,2020-01-01,growth_rate,874.32
+state,CA,California,2020-08-31,population,3358.93
+state,CA,California,2020-08-31,growth_rate,3911.04
+state,TX,Texas,2020-08-31,population,2455.11
+state,TX,Texas,2020-08-31,growth_rate,399.0
+state,NY,New York,2020-08-31,population,228.85
+state,NY,New York,2020-08-31,growth_rate,3331.16
+state,CA,California,2021-05-01,population,4787.38
+state,CA,California,2021-05-01,growth_rate,1095.99
+state,TX,Texas,2021-05-01,population,1121.57
+state,TX,Texas,2021-05-01,growth_rate,88.26
+state,NY,New York,2021-05-01,population,1251.88
+state,NY,New York,2021-05-01,growth_rate,1466.66
+state,CA,California,2021-12-30,population,385.42
+state,CA,California,2021-12-30,growth_rate,4189.16
+state,TX,Texas,2021-12-30,population,261.91
+state,TX,Texas,2021-12-30,growth_rate,3770.4
+state,NY,New York,2021-12-30,population,3073.09
+state,NY,New York,2021-12-30,growth_rate,103.4
+state,CA,California,2022-08-30,population,3585.51
+state,CA,California,2022-08-30,growth_rate,1008.14
+state,TX,Texas,2022-08-30,population,4442.15
+state,TX,Texas,2022-08-30,growth_rate,4985.4
+state,NY,New York,2022-08-30,population,140.91
+state,NY,New York,2022-08-30,growth_rate,2954.84
+state,CA,California,2023-04-30,population,4533.21
+state,CA,California,2023-04-30,growth_rate,3855.31
+state,TX,Texas,2023-04-30,population,449.93
+state,TX,Texas,2023-04-30,growth_rate,4950.85
+state,NY,New York,2023-04-30,population,368.43
+state,NY,New York,2023-04-30,growth_rate,3047.25
+state,CA,California,2023-12-29,population,4962.27
+state,CA,California,2023-12-29,growth_rate,4588.13
+state,TX,Texas,2023-12-29,population,1991.55
+state,TX,Texas,2023-12-29,growth_rate,4303.15
+state,NY,New York,2023-12-29,population,1695.35
+state,NY,New York,2023-12-29,growth_rate,4869.21

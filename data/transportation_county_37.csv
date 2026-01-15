@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-county,06037,Los Angeles County,2014-01-01,average_commute_time,1672.84
-county,06037,Los Angeles County,2014-01-01,transit_ridership,2475.35
-county,17031,Cook County,2014-01-01,average_commute_time,1486.19
-county,17031,Cook County,2014-01-01,transit_ridership,4765.69
-county,36061,New York County,2014-01-01,average_commute_time,1614.86
-county,36061,New York County,2014-01-01,transit_ridership,2368.03
-county,06037,Los Angeles County,2015-03-03,average_commute_time,3114.06
-county,06037,Los Angeles County,2015-03-03,transit_ridership,161.97
-county,17031,Cook County,2015-03-03,average_commute_time,503.01
-county,17031,Cook County,2015-03-03,transit_ridership,2989.59
-county,36061,New York County,2015-03-03,average_commute_time,4051.43
-county,36061,New York County,2015-03-03,transit_ridership,367.84
-county,06037,Los Angeles County,2016-05-02,average_commute_time,4930.49
-county,06037,Los Angeles County,2016-05-02,transit_ridership,1960.92
-county,17031,Cook County,2016-05-02,average_commute_time,826.61
-county,17031,Cook County,2016-05-02,transit_ridership,1267.85
-county,36061,New York County,2016-05-02,average_commute_time,1216.22
-county,36061,New York County,2016-05-02,transit_ridership,3887.95
-county,06037,Los Angeles County,2017-07-02,average_commute_time,3116.74
-county,06037,Los Angeles County,2017-07-02,transit_ridership,1135.64
-county,17031,Cook County,2017-07-02,average_commute_time,3845.66
-county,17031,Cook County,2017-07-02,transit_ridership,3560.72
-county,36061,New York County,2017-07-02,average_commute_time,768.61
-county,36061,New York County,2017-07-02,transit_ridership,3149.89
-county,06037,Los Angeles County,2018-09-01,average_commute_time,3468.9
-county,06037,Los Angeles County,2018-09-01,transit_ridership,3085.31
-county,17031,Cook County,2018-09-01,average_commute_time,1476.66
-county,17031,Cook County,2018-09-01,transit_ridership,2404.42
-county,36061,New York County,2018-09-01,average_commute_time,4348.39
-county,36061,New York County,2018-09-01,transit_ridership,2944.43
-county,06037,Los Angeles County,2019-11-01,average_commute_time,3009.68
-county,06037,Los Angeles County,2019-11-01,transit_ridership,1749.77
-county,17031,Cook County,2019-11-01,average_commute_time,3205.28
-county,17031,Cook County,2019-11-01,transit_ridership,2902.9
-county,36061,New York County,2019-11-01,average_commute_time,3925.21
-county,36061,New York County,2019-11-01,transit_ridership,4771.35
-county,06037,Los Angeles County,2020-12-31,average_commute_time,4675.49
-county,06037,Los Angeles County,2020-12-31,transit_ridership,1835.49
-county,17031,Cook County,2020-12-31,average_commute_time,2633.15
-county,17031,Cook County,2020-12-31,transit_ridership,3607.43
-county,36061,New York County,2020-12-31,average_commute_time,3784.02
-county,36061,New York County,2020-12-31,transit_ridership,3830.14
+county,06037,Los Angeles County,2022-01-01,average_commute_time,1672.84
+county,06037,Los Angeles County,2022-01-01,transit_ridership,2475.35
+county,17031,Cook County,2022-01-01,average_commute_time,1486.19
+county,17031,Cook County,2022-01-01,transit_ridership,4765.69
+county,36061,New York County,2022-01-01,average_commute_time,1614.86
+county,36061,New York County,2022-01-01,transit_ridership,2368.03
+county,06037,Los Angeles County,2022-09-01,average_commute_time,3114.06
+county,06037,Los Angeles County,2022-09-01,transit_ridership,161.97
+county,17031,Cook County,2022-09-01,average_commute_time,503.01
+county,17031,Cook County,2022-09-01,transit_ridership,2989.59
+county,36061,New York County,2022-09-01,average_commute_time,4051.43
+county,36061,New York County,2022-09-01,transit_ridership,367.84
+county,06037,Los Angeles County,2023-05-02,average_commute_time,4930.49
+county,06037,Los Angeles County,2023-05-02,transit_ridership,1960.92
+county,17031,Cook County,2023-05-02,average_commute_time,826.61
+county,17031,Cook County,2023-05-02,transit_ridership,1267.85
+county,36061,New York County,2023-05-02,average_commute_time,1216.22
+county,36061,New York County,2023-05-02,transit_ridership,3887.95
+county,06037,Los Angeles County,2023-12-31,average_commute_time,3116.74
+county,06037,Los Angeles County,2023-12-31,transit_ridership,1135.64
+county,17031,Cook County,2023-12-31,average_commute_time,3845.66
+county,17031,Cook County,2023-12-31,transit_ridership,3560.72
+county,36061,New York County,2023-12-31,average_commute_time,768.61
+county,36061,New York County,2023-12-31,transit_ridership,3149.89
+county,06037,Los Angeles County,2024-08-30,average_commute_time,3468.9
+county,06037,Los Angeles County,2024-08-30,transit_ridership,3085.31
+county,17031,Cook County,2024-08-30,average_commute_time,1476.66
+county,17031,Cook County,2024-08-30,transit_ridership,2404.42
+county,36061,New York County,2024-08-30,average_commute_time,4348.39
+county,36061,New York County,2024-08-30,transit_ridership,2944.43
+county,06037,Los Angeles County,2025-04-30,average_commute_time,3009.68
+county,06037,Los Angeles County,2025-04-30,transit_ridership,1749.77
+county,17031,Cook County,2025-04-30,average_commute_time,3205.28
+county,17031,Cook County,2025-04-30,transit_ridership,2902.9
+county,36061,New York County,2025-04-30,average_commute_time,3925.21
+county,36061,New York County,2025-04-30,transit_ridership,4771.35
+county,06037,Los Angeles County,2025-12-29,average_commute_time,4675.49
+county,06037,Los Angeles County,2025-12-29,transit_ridership,1835.49
+county,17031,Cook County,2025-12-29,average_commute_time,2633.15
+county,17031,Cook County,2025-12-29,transit_ridership,3607.43
+county,36061,New York County,2025-12-29,average_commute_time,3784.02
+county,36061,New York County,2025-12-29,transit_ridership,3830.14

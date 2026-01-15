@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-state,CA,California,2012-01-01,crime_rate,1108.17
-state,CA,California,2012-01-01,violent_crime_rate,4982.96
-state,TX,Texas,2012-01-01,crime_rate,3072.83
-state,TX,Texas,2012-01-01,violent_crime_rate,3694.48
-state,NY,New York,2012-01-01,crime_rate,3250.48
-state,NY,New York,2012-01-01,violent_crime_rate,4344.44
-state,CA,California,2012-12-31,crime_rate,2778.26
-state,CA,California,2012-12-31,violent_crime_rate,3842.26
-state,TX,Texas,2012-12-31,crime_rate,2434.17
-state,TX,Texas,2012-12-31,violent_crime_rate,542.5
-state,NY,New York,2012-12-31,crime_rate,396.92
-state,NY,New York,2012-12-31,violent_crime_rate,1084.86
-state,CA,California,2013-12-31,crime_rate,3713.12
-state,CA,California,2013-12-31,violent_crime_rate,2044.71
-state,TX,Texas,2013-12-31,crime_rate,3415.12
-state,TX,Texas,2013-12-31,violent_crime_rate,4290.18
-state,NY,New York,2013-12-31,crime_rate,3742.16
-state,NY,New York,2013-12-31,violent_crime_rate,4955.79
-state,CA,California,2014-12-31,crime_rate,4107.77
-state,CA,California,2014-12-31,violent_crime_rate,3940.89
-state,TX,Texas,2014-12-31,crime_rate,2303.8
-state,TX,Texas,2014-12-31,violent_crime_rate,80.3
-state,NY,New York,2014-12-31,crime_rate,4661.01
-state,NY,New York,2014-12-31,violent_crime_rate,1496.67
-state,CA,California,2015-12-31,crime_rate,3502.14
-state,CA,California,2015-12-31,violent_crime_rate,579.44
-state,TX,Texas,2015-12-31,crime_rate,2959.95
-state,TX,Texas,2015-12-31,violent_crime_rate,4102.58
-state,NY,New York,2015-12-31,crime_rate,787.95
-state,NY,New York,2015-12-31,violent_crime_rate,635.65
-state,CA,California,2016-12-30,crime_rate,2568.38
-state,CA,California,2016-12-30,violent_crime_rate,1839.16
-state,TX,Texas,2016-12-30,crime_rate,372.33
-state,TX,Texas,2016-12-30,violent_crime_rate,2777.3
-state,NY,New York,2016-12-30,crime_rate,2929.15
-state,NY,New York,2016-12-30,violent_crime_rate,3908.18
-state,CA,California,2017-12-30,crime_rate,3147.27
-state,CA,California,2017-12-30,violent_crime_rate,4301.78
-state,TX,Texas,2017-12-30,crime_rate,4033.16
-state,TX,Texas,2017-12-30,violent_crime_rate,683.88
-state,NY,New York,2017-12-30,crime_rate,3466.47
-state,NY,New York,2017-12-30,violent_crime_rate,3094.82
+state,CA,California,2021-01-01,crime_rate,1108.17
+state,CA,California,2021-01-01,violent_crime_rate,4982.96
+state,TX,Texas,2021-01-01,crime_rate,3072.83
+state,TX,Texas,2021-01-01,violent_crime_rate,3694.48
+state,NY,New York,2021-01-01,crime_rate,3250.48
+state,NY,New York,2021-01-01,violent_crime_rate,4344.44
+state,CA,California,2021-09-01,crime_rate,2778.26
+state,CA,California,2021-09-01,violent_crime_rate,3842.26
+state,TX,Texas,2021-09-01,crime_rate,2434.17
+state,TX,Texas,2021-09-01,violent_crime_rate,542.5
+state,NY,New York,2021-09-01,crime_rate,396.92
+state,NY,New York,2021-09-01,violent_crime_rate,1084.86
+state,CA,California,2022-05-02,crime_rate,3713.12
+state,CA,California,2022-05-02,violent_crime_rate,2044.71
+state,TX,Texas,2022-05-02,crime_rate,3415.12
+state,TX,Texas,2022-05-02,violent_crime_rate,4290.18
+state,NY,New York,2022-05-02,crime_rate,3742.16
+state,NY,New York,2022-05-02,violent_crime_rate,4955.79
+state,CA,California,2022-12-31,crime_rate,4107.77
+state,CA,California,2022-12-31,violent_crime_rate,3940.89
+state,TX,Texas,2022-12-31,crime_rate,2303.8
+state,TX,Texas,2022-12-31,violent_crime_rate,80.3
+state,NY,New York,2022-12-31,crime_rate,4661.01
+state,NY,New York,2022-12-31,violent_crime_rate,1496.67
+state,CA,California,2023-08-31,crime_rate,3502.14
+state,CA,California,2023-08-31,violent_crime_rate,579.44
+state,TX,Texas,2023-08-31,crime_rate,2959.95
+state,TX,Texas,2023-08-31,violent_crime_rate,4102.58
+state,NY,New York,2023-08-31,crime_rate,787.95
+state,NY,New York,2023-08-31,violent_crime_rate,635.65
+state,CA,California,2024-04-30,crime_rate,2568.38
+state,CA,California,2024-04-30,violent_crime_rate,1839.16
+state,TX,Texas,2024-04-30,crime_rate,372.33
+state,TX,Texas,2024-04-30,violent_crime_rate,2777.3
+state,NY,New York,2024-04-30,crime_rate,2929.15
+state,NY,New York,2024-04-30,violent_crime_rate,3908.18
+state,CA,California,2024-12-29,crime_rate,3147.27
+state,CA,California,2024-12-29,violent_crime_rate,4301.78
+state,TX,Texas,2024-12-29,crime_rate,4033.16
+state,TX,Texas,2024-12-29,violent_crime_rate,683.88
+state,NY,New York,2024-12-29,crime_rate,3466.47
+state,NY,New York,2024-12-29,violent_crime_rate,3094.82

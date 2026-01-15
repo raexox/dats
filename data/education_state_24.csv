@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-state,CA,California,2008-01-01,graduation_rate,4690.39
-state,CA,California,2008-01-01,college_attainment,2885.42
-state,TX,Texas,2008-01-01,graduation_rate,1814.97
-state,TX,Texas,2008-01-01,college_attainment,2408.41
-state,NY,New York,2008-01-01,graduation_rate,3045.15
-state,NY,New York,2008-01-01,college_attainment,2832.42
-state,CA,California,2008-12-31,graduation_rate,1330.94
-state,CA,California,2008-12-31,college_attainment,2183.33
-state,TX,Texas,2008-12-31,graduation_rate,4438.79
-state,TX,Texas,2008-12-31,college_attainment,2267.33
-state,NY,New York,2008-12-31,graduation_rate,29.76
-state,NY,New York,2008-12-31,college_attainment,3830.95
-state,CA,California,2009-12-31,graduation_rate,3487.64
-state,CA,California,2009-12-31,college_attainment,225.77
-state,TX,Texas,2009-12-31,graduation_rate,424.5
-state,TX,Texas,2009-12-31,college_attainment,2231.26
-state,NY,New York,2009-12-31,graduation_rate,418.12
-state,NY,New York,2009-12-31,college_attainment,132.01
-state,CA,California,2010-12-31,graduation_rate,3186.07
-state,CA,California,2010-12-31,college_attainment,4354.81
-state,TX,Texas,2010-12-31,graduation_rate,1259.83
-state,TX,Texas,2010-12-31,college_attainment,1664.9
-state,NY,New York,2010-12-31,graduation_rate,271.18
-state,NY,New York,2010-12-31,college_attainment,1626.42
-state,CA,California,2011-12-31,graduation_rate,792.95
-state,CA,California,2011-12-31,college_attainment,711.52
-state,TX,Texas,2011-12-31,graduation_rate,2667.95
-state,TX,Texas,2011-12-31,college_attainment,123.75
-state,NY,New York,2011-12-31,graduation_rate,3653.1
-state,NY,New York,2011-12-31,college_attainment,3048.98
-state,CA,California,2012-12-30,graduation_rate,1546.82
-state,CA,California,2012-12-30,college_attainment,116.15
-state,TX,Texas,2012-12-30,graduation_rate,3573.12
-state,TX,Texas,2012-12-30,college_attainment,3628.33
-state,NY,New York,2012-12-30,graduation_rate,2596.66
-state,NY,New York,2012-12-30,college_attainment,2960.13
-state,CA,California,2013-12-30,graduation_rate,2158.99
-state,CA,California,2013-12-30,college_attainment,2587.94
-state,TX,Texas,2013-12-30,graduation_rate,4474.08
-state,TX,Texas,2013-12-30,college_attainment,4799.51
-state,NY,New York,2013-12-30,graduation_rate,2677.61
-state,NY,New York,2013-12-30,college_attainment,139.55
+state,CA,California,2024-01-01,graduation_rate,4690.39
+state,CA,California,2024-01-01,college_attainment,2885.42
+state,TX,Texas,2024-01-01,graduation_rate,1814.97
+state,TX,Texas,2024-01-01,college_attainment,2408.41
+state,NY,New York,2024-01-01,graduation_rate,3045.15
+state,NY,New York,2024-01-01,college_attainment,2832.42
+state,CA,California,2024-07-01,graduation_rate,1330.94
+state,CA,California,2024-07-01,college_attainment,2183.33
+state,TX,Texas,2024-07-01,graduation_rate,4438.79
+state,TX,Texas,2024-07-01,college_attainment,2267.33
+state,NY,New York,2024-07-01,graduation_rate,29.76
+state,NY,New York,2024-07-01,college_attainment,3830.95
+state,CA,California,2024-12-30,graduation_rate,3487.64
+state,CA,California,2024-12-30,college_attainment,225.77
+state,TX,Texas,2024-12-30,graduation_rate,424.5
+state,TX,Texas,2024-12-30,college_attainment,2231.26
+state,NY,New York,2024-12-30,graduation_rate,418.12
+state,NY,New York,2024-12-30,college_attainment,132.01
+state,CA,California,2025-06-30,graduation_rate,3186.07
+state,CA,California,2025-06-30,college_attainment,4354.81
+state,TX,Texas,2025-06-30,graduation_rate,1259.83
+state,TX,Texas,2025-06-30,college_attainment,1664.9
+state,NY,New York,2025-06-30,graduation_rate,271.18
+state,NY,New York,2025-06-30,college_attainment,1626.42
+state,CA,California,2025-12-29,graduation_rate,792.95
+state,CA,California,2025-12-29,college_attainment,711.52
+state,TX,Texas,2025-12-29,graduation_rate,2667.95
+state,TX,Texas,2025-12-29,college_attainment,123.75
+state,NY,New York,2025-12-29,graduation_rate,3653.1
+state,NY,New York,2025-12-29,college_attainment,3048.98
+state,CA,California,2026-06-29,graduation_rate,1546.82
+state,CA,California,2026-06-29,college_attainment,116.15
+state,TX,Texas,2026-06-29,graduation_rate,3573.12
+state,TX,Texas,2026-06-29,college_attainment,3628.33
+state,NY,New York,2026-06-29,graduation_rate,2596.66
+state,NY,New York,2026-06-29,college_attainment,2960.13
+state,CA,California,2026-12-28,graduation_rate,2158.99
+state,CA,California,2026-12-28,college_attainment,2587.94
+state,TX,Texas,2026-12-28,graduation_rate,4474.08
+state,TX,Texas,2026-12-28,college_attainment,4799.51
+state,NY,New York,2026-12-28,graduation_rate,2677.61
+state,NY,New York,2026-12-28,college_attainment,139.55

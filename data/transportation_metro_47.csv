@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-metro,31080,Los Angeles-Long Beach-Anaheim,2014-01-01,average_commute_time,740.73
-metro,31080,Los Angeles-Long Beach-Anaheim,2014-01-01,transit_ridership,1300.35
-metro,19100,Dallas-Fort Worth,2014-01-01,average_commute_time,627.81
-metro,19100,Dallas-Fort Worth,2014-01-01,transit_ridership,2721.34
-metro,35620,New York-Newark,2014-01-01,average_commute_time,2700.59
-metro,35620,New York-Newark,2014-01-01,transit_ridership,2043.46
-metro,31080,Los Angeles-Long Beach-Anaheim,2015-07-02,average_commute_time,3821.03
-metro,31080,Los Angeles-Long Beach-Anaheim,2015-07-02,transit_ridership,3200.1
-metro,19100,Dallas-Fort Worth,2015-07-02,average_commute_time,1502.23
-metro,19100,Dallas-Fort Worth,2015-07-02,transit_ridership,3479.49
-metro,35620,New York-Newark,2015-07-02,average_commute_time,1084.82
-metro,35620,New York-Newark,2015-07-02,transit_ridership,1768.88
-metro,31080,Los Angeles-Long Beach-Anaheim,2016-12-30,average_commute_time,1372.85
-metro,31080,Los Angeles-Long Beach-Anaheim,2016-12-30,transit_ridership,4070.25
-metro,19100,Dallas-Fort Worth,2016-12-30,average_commute_time,1990.8
-metro,19100,Dallas-Fort Worth,2016-12-30,transit_ridership,4196.08
-metro,35620,New York-Newark,2016-12-30,average_commute_time,3534.09
-metro,35620,New York-Newark,2016-12-30,transit_ridership,1121.92
-metro,31080,Los Angeles-Long Beach-Anaheim,2018-06-30,average_commute_time,4319.78
-metro,31080,Los Angeles-Long Beach-Anaheim,2018-06-30,transit_ridership,3619.65
-metro,19100,Dallas-Fort Worth,2018-06-30,average_commute_time,2394.67
-metro,19100,Dallas-Fort Worth,2018-06-30,transit_ridership,2248.46
-metro,35620,New York-Newark,2018-06-30,average_commute_time,3253.4
-metro,35620,New York-Newark,2018-06-30,transit_ridership,3709.42
-metro,31080,Los Angeles-Long Beach-Anaheim,2019-12-29,average_commute_time,2788.08
-metro,31080,Los Angeles-Long Beach-Anaheim,2019-12-29,transit_ridership,1587.26
-metro,19100,Dallas-Fort Worth,2019-12-29,average_commute_time,2295.41
-metro,19100,Dallas-Fort Worth,2019-12-29,transit_ridership,4487.71
-metro,35620,New York-Newark,2019-12-29,average_commute_time,4742.33
-metro,35620,New York-Newark,2019-12-29,transit_ridership,4951.5
-metro,31080,Los Angeles-Long Beach-Anaheim,2021-06-28,average_commute_time,1698.18
-metro,31080,Los Angeles-Long Beach-Anaheim,2021-06-28,transit_ridership,3094.8
-metro,19100,Dallas-Fort Worth,2021-06-28,average_commute_time,2447.91
-metro,19100,Dallas-Fort Worth,2021-06-28,transit_ridership,1146.8
-metro,35620,New York-Newark,2021-06-28,average_commute_time,3051.88
-metro,35620,New York-Newark,2021-06-28,transit_ridership,4273.57
-metro,31080,Los Angeles-Long Beach-Anaheim,2022-12-27,average_commute_time,3745.86
-metro,31080,Los Angeles-Long Beach-Anaheim,2022-12-27,transit_ridership,1274.67
-metro,19100,Dallas-Fort Worth,2022-12-27,average_commute_time,344.36
-metro,19100,Dallas-Fort Worth,2022-12-27,transit_ridership,4058.4
-metro,35620,New York-Newark,2022-12-27,average_commute_time,3460.81
-metro,35620,New York-Newark,2022-12-27,transit_ridership,4386.26
+metro,31080,Los Angeles-Long Beach-Anaheim,2022-01-01,average_commute_time,740.73
+metro,31080,Los Angeles-Long Beach-Anaheim,2022-01-01,transit_ridership,1300.35
+metro,19100,Dallas-Fort Worth,2022-01-01,average_commute_time,627.81
+metro,19100,Dallas-Fort Worth,2022-01-01,transit_ridership,2721.34
+metro,35620,New York-Newark,2022-01-01,average_commute_time,2700.59
+metro,35620,New York-Newark,2022-01-01,transit_ridership,2043.46
+metro,31080,Los Angeles-Long Beach-Anaheim,2022-11-01,average_commute_time,3821.03
+metro,31080,Los Angeles-Long Beach-Anaheim,2022-11-01,transit_ridership,3200.1
+metro,19100,Dallas-Fort Worth,2022-11-01,average_commute_time,1502.23
+metro,19100,Dallas-Fort Worth,2022-11-01,transit_ridership,3479.49
+metro,35620,New York-Newark,2022-11-01,average_commute_time,1084.82
+metro,35620,New York-Newark,2022-11-01,transit_ridership,1768.88
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-09-01,average_commute_time,1372.85
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-09-01,transit_ridership,4070.25
+metro,19100,Dallas-Fort Worth,2023-09-01,average_commute_time,1990.8
+metro,19100,Dallas-Fort Worth,2023-09-01,transit_ridership,4196.08
+metro,35620,New York-Newark,2023-09-01,average_commute_time,3534.09
+metro,35620,New York-Newark,2023-09-01,transit_ridership,1121.92
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-07-01,average_commute_time,4319.78
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-07-01,transit_ridership,3619.65
+metro,19100,Dallas-Fort Worth,2024-07-01,average_commute_time,2394.67
+metro,19100,Dallas-Fort Worth,2024-07-01,transit_ridership,2248.46
+metro,35620,New York-Newark,2024-07-01,average_commute_time,3253.4
+metro,35620,New York-Newark,2024-07-01,transit_ridership,3709.42
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-05-01,average_commute_time,2788.08
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-05-01,transit_ridership,1587.26
+metro,19100,Dallas-Fort Worth,2025-05-01,average_commute_time,2295.41
+metro,19100,Dallas-Fort Worth,2025-05-01,transit_ridership,4487.71
+metro,35620,New York-Newark,2025-05-01,average_commute_time,4742.33
+metro,35620,New York-Newark,2025-05-01,transit_ridership,4951.5
+metro,31080,Los Angeles-Long Beach-Anaheim,2026-03-01,average_commute_time,1698.18
+metro,31080,Los Angeles-Long Beach-Anaheim,2026-03-01,transit_ridership,3094.8
+metro,19100,Dallas-Fort Worth,2026-03-01,average_commute_time,2447.91
+metro,19100,Dallas-Fort Worth,2026-03-01,transit_ridership,1146.8
+metro,35620,New York-Newark,2026-03-01,average_commute_time,3051.88
+metro,35620,New York-Newark,2026-03-01,transit_ridership,4273.57
+metro,31080,Los Angeles-Long Beach-Anaheim,2026-12-30,average_commute_time,3745.86
+metro,31080,Los Angeles-Long Beach-Anaheim,2026-12-30,transit_ridership,1274.67
+metro,19100,Dallas-Fort Worth,2026-12-30,average_commute_time,344.36
+metro,19100,Dallas-Fort Worth,2026-12-30,transit_ridership,4058.4
+metro,35620,New York-Newark,2026-12-30,average_commute_time,3460.81
+metro,35620,New York-Newark,2026-12-30,transit_ridership,4386.26

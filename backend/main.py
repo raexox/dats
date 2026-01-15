@@ -1,10 +1,13 @@
 from datetime import date, datetime, timedelta, timezone
+import json
+import asyncio
 import os
 from pathlib import Path
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, Header, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from passlib.context import CryptContext
 from pymongo import MongoClient
 from pymongo.errors import DuplicateKeyError
@@ -15,6 +18,9 @@ from models import (
     DatasetRow,
     DatasetFetchRequest,
     DatasetResult,
+    AutoRunRequest,
+    AutoRunResponse,
+    AutoRunSummary,
     PlannerResponse,
     UserQuery,
     QueryHistoryItem,
@@ -32,6 +38,9 @@ from catalog.store import CatalogStore
 from providers.local_csv import LocalCsvProvider
 from providers.registry import ProviderRegistry
 from planner.planner import DatasetPlanner
+from executor.runner import AutoRunConfig, as_response, run_auto
+from executor.stream_runner import StreamConfig, run_streaming
+from streaming.store import JobStore
 
 
 load_dotenv()
@@ -94,6 +103,7 @@ def load_catalog() -> None:
     store.load()
     app.state.catalog_store = store
     app.state.provider_registry = ProviderRegistry([LocalCsvProvider(data_dir)])
+    app.state.job_store = JobStore()
 
 
 @app.get("/health")
@@ -311,3 +321,126 @@ def plan_datasets(payload: UserQuery, top_k: int = 25):
     safe_top_k = max(1, min(top_k, 100))
     candidates = planner.plan(payload, safe_top_k)
     return PlannerResponse(top_k=safe_top_k, candidates=candidates)
+
+
+@app.post("/query/run-auto", response_model=AutoRunResponse)
+async def run_auto_query(payload: AutoRunRequest):
+    if payload.query.start_date < date(2020, 1, 1):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="start_date must be on or after 2020-01-01.",
+        )
+    if payload.query.end_date < payload.query.start_date:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="end_date must be >= start_date.")
+    store: CatalogStore = app.state.catalog_store
+    registry: ProviderRegistry = app.state.provider_registry
+    safe_k = max(1, min(payload.k, 100))
+    safe_concurrency = max(1, min(payload.concurrency, 10))
+    safe_timeout = max(100, min(payload.timeout_ms, 30_000))
+    config = AutoRunConfig(k=safe_k, concurrency=safe_concurrency, timeout_ms=safe_timeout)
+    result = await run_auto(payload.query, config, store, registry)
+    return as_response(result)
+
+
+@app.post("/query/start-auto")
+async def start_auto_query(payload: AutoRunRequest):
+    if payload.query.start_date < date(2020, 1, 1):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="start_date must be on or after 2020-01-01.",
+        )
+    if payload.query.end_date < payload.query.start_date:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="end_date must be >= start_date.")
+    store: CatalogStore = app.state.catalog_store
+    registry: ProviderRegistry = app.state.provider_registry
+    job_store: JobStore = app.state.job_store
+    safe_k = max(1, min(payload.k, 100))
+    safe_concurrency = max(1, min(payload.concurrency, 10))
+    safe_timeout = max(100, min(payload.timeout_ms, 30_000))
+    config = StreamConfig(k=safe_k, concurrency=safe_concurrency, timeout_ms=safe_timeout)
+    job = job_store.create_job()
+
+    def on_planned(planned):
+        job.planned = planned
+        _enqueue_event(job, "planned", planned)
+
+    def on_result(result):
+        job.results.append(result)
+        _enqueue_event(job, "result", result)
+
+    def on_done(summary):
+        job.summary = summary
+        job.done = True
+        _enqueue_event(job, "done", summary)
+
+    async def run_job():
+        await run_streaming(payload.query, config, store, registry, on_planned, on_result, on_done)
+
+    async def safe_run():
+        try:
+            await run_job()
+        except Exception:
+            job.summary = AutoRunSummary(
+                success=0,
+                no_data=0,
+                error=len(job.results),
+                total_runtime_ms=0,
+            )
+            job.done = True
+            _enqueue_event(job, "done", job.summary)
+
+    asyncio.create_task(safe_run())
+    return {"query_id": job.query_id}
+
+
+@app.get("/query/stream/{query_id}")
+async def stream_query_results(query_id: str):
+    job_store: JobStore = app.state.job_store
+    job = job_store.get_job(query_id)
+    if not job:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Query not found.")
+
+    async def event_generator():
+        try:
+            if job.planned:
+                yield _sse_event("planned", job.planned)
+            for result in job.results:
+                yield _sse_event("result", result)
+            if job.done and job.summary:
+                yield _sse_event("done", job.summary)
+                return
+            while True:
+                try:
+                    item = await asyncio.wait_for(job.queue.get(), timeout=30.0)
+                except asyncio.TimeoutError:
+                    yield _sse_event("keepalive", {"query_id": query_id})
+                    continue
+                event_type = item["type"]
+                payload = item["payload"]
+                yield _sse_event(event_type, payload)
+                if event_type == "done":
+                    return
+        except asyncio.CancelledError:
+            return
+
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
+
+
+def _sse_event(event_type: str, payload) -> str:
+    serialized = _serialize_payload(payload)
+    return f"event: {event_type}\ndata: {json.dumps(serialized, default=str)}\n\n"
+
+
+def _enqueue_event(job, event_type: str, payload) -> None:
+    try:
+        job.queue.put_nowait({"type": event_type, "payload": payload})
+    except asyncio.QueueFull:
+        pass
+
+
+def _serialize_payload(payload):
+    if hasattr(payload, "model_dump"):
+        return payload.model_dump()
+    if isinstance(payload, list):
+        return [_serialize_payload(item) for item in payload]
+    return payload

@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-city,0667000,Los Angeles,2004-01-01,median_rent,1095.64
-city,0667000,Los Angeles,2004-01-01,home_value,769.55
-city,4819000,Dallas,2004-01-01,median_rent,1329.19
-city,4819000,Dallas,2004-01-01,home_value,3506.31
-city,3651000,New York City,2004-01-01,median_rent,438.17
-city,3651000,New York City,2004-01-01,home_value,3047.31
-city,0667000,Los Angeles,2005-05-01,median_rent,2692.18
-city,0667000,Los Angeles,2005-05-01,home_value,873.12
-city,4819000,Dallas,2005-05-01,median_rent,3921.39
-city,4819000,Dallas,2005-05-01,home_value,208.62
-city,3651000,New York City,2005-05-01,median_rent,193.42
-city,3651000,New York City,2005-05-01,home_value,3264.2
-city,0667000,Los Angeles,2006-08-30,median_rent,1184.67
-city,0667000,Los Angeles,2006-08-30,home_value,2658.87
-city,4819000,Dallas,2006-08-30,median_rent,2922.48
-city,4819000,Dallas,2006-08-30,home_value,587.48
-city,3651000,New York City,2006-08-30,median_rent,2770.91
-city,3651000,New York City,2006-08-30,home_value,1608.64
-city,0667000,Los Angeles,2007-12-29,median_rent,52.88
-city,0667000,Los Angeles,2007-12-29,home_value,3402.62
-city,4819000,Dallas,2007-12-29,median_rent,2595.19
-city,4819000,Dallas,2007-12-29,home_value,1273.16
-city,3651000,New York City,2007-12-29,median_rent,3309.78
-city,3651000,New York City,2007-12-29,home_value,2062.1
-city,0667000,Los Angeles,2009-04-28,median_rent,2168.94
-city,0667000,Los Angeles,2009-04-28,home_value,1269.7
-city,4819000,Dallas,2009-04-28,median_rent,632.37
-city,4819000,Dallas,2009-04-28,home_value,608.84
-city,3651000,New York City,2009-04-28,median_rent,3570.68
-city,3651000,New York City,2009-04-28,home_value,1010.77
-city,0667000,Los Angeles,2010-08-27,median_rent,1875.28
-city,0667000,Los Angeles,2010-08-27,home_value,1756.12
-city,4819000,Dallas,2010-08-27,median_rent,89.54
-city,4819000,Dallas,2010-08-27,home_value,2356.92
-city,3651000,New York City,2010-08-27,median_rent,2766.01
-city,3651000,New York City,2010-08-27,home_value,2447.09
-city,0667000,Los Angeles,2011-12-26,median_rent,3443.75
-city,0667000,Los Angeles,2011-12-26,home_value,4112.37
-city,4819000,Dallas,2011-12-26,median_rent,2337.33
-city,4819000,Dallas,2011-12-26,home_value,3354.38
-city,3651000,New York City,2011-12-26,median_rent,1480.58
-city,3651000,New York City,2011-12-26,home_value,2925.41
+city,0667000,Los Angeles,2022-01-01,median_rent,1095.64
+city,0667000,Los Angeles,2022-01-01,home_value,769.55
+city,4819000,Dallas,2022-01-01,median_rent,1329.19
+city,4819000,Dallas,2022-01-01,home_value,3506.31
+city,3651000,New York City,2022-01-01,median_rent,438.17
+city,3651000,New York City,2022-01-01,home_value,3047.31
+city,0667000,Los Angeles,2022-09-01,median_rent,2692.18
+city,0667000,Los Angeles,2022-09-01,home_value,873.12
+city,4819000,Dallas,2022-09-01,median_rent,3921.39
+city,4819000,Dallas,2022-09-01,home_value,208.62
+city,3651000,New York City,2022-09-01,median_rent,193.42
+city,3651000,New York City,2022-09-01,home_value,3264.2
+city,0667000,Los Angeles,2023-05-02,median_rent,1184.67
+city,0667000,Los Angeles,2023-05-02,home_value,2658.87
+city,4819000,Dallas,2023-05-02,median_rent,2922.48
+city,4819000,Dallas,2023-05-02,home_value,587.48
+city,3651000,New York City,2023-05-02,median_rent,2770.91
+city,3651000,New York City,2023-05-02,home_value,1608.64
+city,0667000,Los Angeles,2023-12-31,median_rent,52.88
+city,0667000,Los Angeles,2023-12-31,home_value,3402.62
+city,4819000,Dallas,2023-12-31,median_rent,2595.19
+city,4819000,Dallas,2023-12-31,home_value,1273.16
+city,3651000,New York City,2023-12-31,median_rent,3309.78
+city,3651000,New York City,2023-12-31,home_value,2062.1
+city,0667000,Los Angeles,2024-08-30,median_rent,2168.94
+city,0667000,Los Angeles,2024-08-30,home_value,1269.7
+city,4819000,Dallas,2024-08-30,median_rent,632.37
+city,4819000,Dallas,2024-08-30,home_value,608.84
+city,3651000,New York City,2024-08-30,median_rent,3570.68
+city,3651000,New York City,2024-08-30,home_value,1010.77
+city,0667000,Los Angeles,2025-04-30,median_rent,1875.28
+city,0667000,Los Angeles,2025-04-30,home_value,1756.12
+city,4819000,Dallas,2025-04-30,median_rent,89.54
+city,4819000,Dallas,2025-04-30,home_value,2356.92
+city,3651000,New York City,2025-04-30,median_rent,2766.01
+city,3651000,New York City,2025-04-30,home_value,2447.09
+city,0667000,Los Angeles,2025-12-29,median_rent,3443.75
+city,0667000,Los Angeles,2025-12-29,home_value,4112.37
+city,4819000,Dallas,2025-12-29,median_rent,2337.33
+city,4819000,Dallas,2025-12-29,home_value,3354.38
+city,3651000,New York City,2025-12-29,median_rent,1480.58
+city,3651000,New York City,2025-12-29,home_value,2925.41

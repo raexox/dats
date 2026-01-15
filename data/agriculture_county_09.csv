@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-county,06037,Los Angeles County,2018-01-01,crop_yield,3204.71
-county,06037,Los Angeles County,2018-01-01,farm_count,724.47
-county,17031,Cook County,2018-01-01,crop_yield,3266.33
-county,17031,Cook County,2018-01-01,farm_count,2770.02
-county,36061,New York County,2018-01-01,crop_yield,2952.82
-county,36061,New York County,2018-01-01,farm_count,2897.15
-county,06037,Los Angeles County,2019-03-03,crop_yield,1320.26
-county,06037,Los Angeles County,2019-03-03,farm_count,4064.49
-county,17031,Cook County,2019-03-03,crop_yield,1794.23
-county,17031,Cook County,2019-03-03,farm_count,3964.46
-county,36061,New York County,2019-03-03,crop_yield,4305.66
-county,36061,New York County,2019-03-03,farm_count,3849.4
-county,06037,Los Angeles County,2020-05-02,crop_yield,3484.87
-county,06037,Los Angeles County,2020-05-02,farm_count,2029.76
-county,17031,Cook County,2020-05-02,crop_yield,1659.89
-county,17031,Cook County,2020-05-02,farm_count,3496.16
-county,36061,New York County,2020-05-02,crop_yield,2087.02
-county,36061,New York County,2020-05-02,farm_count,79.15
-county,06037,Los Angeles County,2021-07-02,crop_yield,3461.2
-county,06037,Los Angeles County,2021-07-02,farm_count,3507.34
-county,17031,Cook County,2021-07-02,crop_yield,607.33
-county,17031,Cook County,2021-07-02,farm_count,4966.69
-county,36061,New York County,2021-07-02,crop_yield,1155.79
-county,36061,New York County,2021-07-02,farm_count,4656.1
-county,06037,Los Angeles County,2022-09-01,crop_yield,756.4
-county,06037,Los Angeles County,2022-09-01,farm_count,810.48
-county,17031,Cook County,2022-09-01,crop_yield,3473.14
-county,17031,Cook County,2022-09-01,farm_count,4471.65
-county,36061,New York County,2022-09-01,crop_yield,1516.19
-county,36061,New York County,2022-09-01,farm_count,3564.07
-county,06037,Los Angeles County,2023-11-01,crop_yield,1058.28
-county,06037,Los Angeles County,2023-11-01,farm_count,3983.05
-county,17031,Cook County,2023-11-01,crop_yield,810.68
-county,17031,Cook County,2023-11-01,farm_count,607.16
-county,36061,New York County,2023-11-01,crop_yield,2395.08
-county,36061,New York County,2023-11-01,farm_count,1869.82
-county,06037,Los Angeles County,2024-12-31,crop_yield,1872.23
-county,06037,Los Angeles County,2024-12-31,farm_count,263.34
-county,17031,Cook County,2024-12-31,crop_yield,3956.33
-county,17031,Cook County,2024-12-31,farm_count,760.66
-county,36061,New York County,2024-12-31,crop_yield,1695.83
-county,36061,New York County,2024-12-31,farm_count,3201.35
+county,06037,Los Angeles County,2024-01-01,crop_yield,3204.71
+county,06037,Los Angeles County,2024-01-01,farm_count,724.47
+county,17031,Cook County,2024-01-01,crop_yield,3266.33
+county,17031,Cook County,2024-01-01,farm_count,2770.02
+county,36061,New York County,2024-01-01,crop_yield,2952.82
+county,36061,New York County,2024-01-01,farm_count,2897.15
+county,06037,Los Angeles County,2024-07-01,crop_yield,1320.26
+county,06037,Los Angeles County,2024-07-01,farm_count,4064.49
+county,17031,Cook County,2024-07-01,crop_yield,1794.23
+county,17031,Cook County,2024-07-01,farm_count,3964.46
+county,36061,New York County,2024-07-01,crop_yield,4305.66
+county,36061,New York County,2024-07-01,farm_count,3849.4
+county,06037,Los Angeles County,2024-12-30,crop_yield,3484.87
+county,06037,Los Angeles County,2024-12-30,farm_count,2029.76
+county,17031,Cook County,2024-12-30,crop_yield,1659.89
+county,17031,Cook County,2024-12-30,farm_count,3496.16
+county,36061,New York County,2024-12-30,crop_yield,2087.02
+county,36061,New York County,2024-12-30,farm_count,79.15
+county,06037,Los Angeles County,2025-06-30,crop_yield,3461.2
+county,06037,Los Angeles County,2025-06-30,farm_count,3507.34
+county,17031,Cook County,2025-06-30,crop_yield,607.33
+county,17031,Cook County,2025-06-30,farm_count,4966.69
+county,36061,New York County,2025-06-30,crop_yield,1155.79
+county,36061,New York County,2025-06-30,farm_count,4656.1
+county,06037,Los Angeles County,2025-12-29,crop_yield,756.4
+county,06037,Los Angeles County,2025-12-29,farm_count,810.48
+county,17031,Cook County,2025-12-29,crop_yield,3473.14
+county,17031,Cook County,2025-12-29,farm_count,4471.65
+county,36061,New York County,2025-12-29,crop_yield,1516.19
+county,36061,New York County,2025-12-29,farm_count,3564.07
+county,06037,Los Angeles County,2026-06-29,crop_yield,1058.28
+county,06037,Los Angeles County,2026-06-29,farm_count,3983.05
+county,17031,Cook County,2026-06-29,crop_yield,810.68
+county,17031,Cook County,2026-06-29,farm_count,607.16
+county,36061,New York County,2026-06-29,crop_yield,2395.08
+county,36061,New York County,2026-06-29,farm_count,1869.82
+county,06037,Los Angeles County,2026-12-28,crop_yield,1872.23
+county,06037,Los Angeles County,2026-12-28,farm_count,263.34
+county,17031,Cook County,2026-12-28,crop_yield,3956.33
+county,17031,Cook County,2026-12-28,farm_count,760.66
+county,36061,New York County,2026-12-28,crop_yield,1695.83
+county,36061,New York County,2026-12-28,farm_count,3201.35

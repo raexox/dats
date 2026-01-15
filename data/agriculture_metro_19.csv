@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-metro,31080,Los Angeles-Long Beach-Anaheim,2018-01-01,crop_yield,1017.5
-metro,31080,Los Angeles-Long Beach-Anaheim,2018-01-01,farm_count,15.38
-metro,19100,Dallas-Fort Worth,2018-01-01,crop_yield,767.28
-metro,19100,Dallas-Fort Worth,2018-01-01,farm_count,3162.89
-metro,35620,New York-Newark,2018-01-01,crop_yield,203.84
-metro,35620,New York-Newark,2018-01-01,farm_count,2238.13
-metro,31080,Los Angeles-Long Beach-Anaheim,2019-07-02,crop_yield,1526.68
-metro,31080,Los Angeles-Long Beach-Anaheim,2019-07-02,farm_count,4745.09
-metro,19100,Dallas-Fort Worth,2019-07-02,crop_yield,1656.49
-metro,19100,Dallas-Fort Worth,2019-07-02,farm_count,4564.76
-metro,35620,New York-Newark,2019-07-02,crop_yield,4162.06
-metro,35620,New York-Newark,2019-07-02,farm_count,3613.79
-metro,31080,Los Angeles-Long Beach-Anaheim,2020-12-30,crop_yield,2882.3
-metro,31080,Los Angeles-Long Beach-Anaheim,2020-12-30,farm_count,305.84
-metro,19100,Dallas-Fort Worth,2020-12-30,crop_yield,1444.6
-metro,19100,Dallas-Fort Worth,2020-12-30,farm_count,3374.84
-metro,35620,New York-Newark,2020-12-30,crop_yield,977.52
-metro,35620,New York-Newark,2020-12-30,farm_count,547.5
-metro,31080,Los Angeles-Long Beach-Anaheim,2022-06-30,crop_yield,658.52
-metro,31080,Los Angeles-Long Beach-Anaheim,2022-06-30,farm_count,4076.71
-metro,19100,Dallas-Fort Worth,2022-06-30,crop_yield,3386.01
-metro,19100,Dallas-Fort Worth,2022-06-30,farm_count,561.09
-metro,35620,New York-Newark,2022-06-30,crop_yield,1924.59
-metro,35620,New York-Newark,2022-06-30,farm_count,3991.77
-metro,31080,Los Angeles-Long Beach-Anaheim,2023-12-29,crop_yield,4870.37
-metro,31080,Los Angeles-Long Beach-Anaheim,2023-12-29,farm_count,2580.45
-metro,19100,Dallas-Fort Worth,2023-12-29,crop_yield,1062.21
-metro,19100,Dallas-Fort Worth,2023-12-29,farm_count,3185.57
-metro,35620,New York-Newark,2023-12-29,crop_yield,1614.72
-metro,35620,New York-Newark,2023-12-29,farm_count,1631.54
-metro,31080,Los Angeles-Long Beach-Anaheim,2025-06-28,crop_yield,805.06
-metro,31080,Los Angeles-Long Beach-Anaheim,2025-06-28,farm_count,314.63
-metro,19100,Dallas-Fort Worth,2025-06-28,crop_yield,4195.86
-metro,19100,Dallas-Fort Worth,2025-06-28,farm_count,3599.09
-metro,35620,New York-Newark,2025-06-28,crop_yield,2180.74
-metro,35620,New York-Newark,2025-06-28,farm_count,2662.96
-metro,31080,Los Angeles-Long Beach-Anaheim,2026-12-27,crop_yield,3089.93
-metro,31080,Los Angeles-Long Beach-Anaheim,2026-12-27,farm_count,714.47
-metro,19100,Dallas-Fort Worth,2026-12-27,crop_yield,3821.27
-metro,19100,Dallas-Fort Worth,2026-12-27,farm_count,3963.59
-metro,35620,New York-Newark,2026-12-27,crop_yield,4302.06
-metro,35620,New York-Newark,2026-12-27,farm_count,161.64
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-01-01,crop_yield,1017.5
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-01-01,farm_count,15.38
+metro,19100,Dallas-Fort Worth,2024-01-01,crop_yield,767.28
+metro,19100,Dallas-Fort Worth,2024-01-01,farm_count,3162.89
+metro,35620,New York-Newark,2024-01-01,crop_yield,203.84
+metro,35620,New York-Newark,2024-01-01,farm_count,2238.13
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-08-31,crop_yield,1526.68
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-08-31,farm_count,4745.09
+metro,19100,Dallas-Fort Worth,2024-08-31,crop_yield,1656.49
+metro,19100,Dallas-Fort Worth,2024-08-31,farm_count,4564.76
+metro,35620,New York-Newark,2024-08-31,crop_yield,4162.06
+metro,35620,New York-Newark,2024-08-31,farm_count,3613.79
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-05-01,crop_yield,2882.3
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-05-01,farm_count,305.84
+metro,19100,Dallas-Fort Worth,2025-05-01,crop_yield,1444.6
+metro,19100,Dallas-Fort Worth,2025-05-01,farm_count,3374.84
+metro,35620,New York-Newark,2025-05-01,crop_yield,977.52
+metro,35620,New York-Newark,2025-05-01,farm_count,547.5
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-12-30,crop_yield,658.52
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-12-30,farm_count,4076.71
+metro,19100,Dallas-Fort Worth,2025-12-30,crop_yield,3386.01
+metro,19100,Dallas-Fort Worth,2025-12-30,farm_count,561.09
+metro,35620,New York-Newark,2025-12-30,crop_yield,1924.59
+metro,35620,New York-Newark,2025-12-30,farm_count,3991.77
+metro,31080,Los Angeles-Long Beach-Anaheim,2026-08-30,crop_yield,4870.37
+metro,31080,Los Angeles-Long Beach-Anaheim,2026-08-30,farm_count,2580.45
+metro,19100,Dallas-Fort Worth,2026-08-30,crop_yield,1062.21
+metro,19100,Dallas-Fort Worth,2026-08-30,farm_count,3185.57
+metro,35620,New York-Newark,2026-08-30,crop_yield,1614.72
+metro,35620,New York-Newark,2026-08-30,farm_count,1631.54
+metro,31080,Los Angeles-Long Beach-Anaheim,2027-04-30,crop_yield,805.06
+metro,31080,Los Angeles-Long Beach-Anaheim,2027-04-30,farm_count,314.63
+metro,19100,Dallas-Fort Worth,2027-04-30,crop_yield,4195.86
+metro,19100,Dallas-Fort Worth,2027-04-30,farm_count,3599.09
+metro,35620,New York-Newark,2027-04-30,crop_yield,2180.74
+metro,35620,New York-Newark,2027-04-30,farm_count,2662.96
+metro,31080,Los Angeles-Long Beach-Anaheim,2027-12-29,crop_yield,3089.93
+metro,31080,Los Angeles-Long Beach-Anaheim,2027-12-29,farm_count,714.47
+metro,19100,Dallas-Fort Worth,2027-12-29,crop_yield,3821.27
+metro,19100,Dallas-Fort Worth,2027-12-29,farm_count,3963.59
+metro,35620,New York-Newark,2027-12-29,crop_yield,4302.06
+metro,35620,New York-Newark,2027-12-29,farm_count,161.64

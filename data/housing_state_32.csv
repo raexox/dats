@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-state,CA,California,2004-01-01,median_rent,1767.86
-state,CA,California,2004-01-01,home_value,2704.16
-state,TX,Texas,2004-01-01,median_rent,4811.94
-state,TX,Texas,2004-01-01,home_value,4132.21
-state,NY,New York,2004-01-01,median_rent,3447.9
-state,NY,New York,2004-01-01,home_value,3764.81
-state,CA,California,2004-12-31,median_rent,4462.33
-state,CA,California,2004-12-31,home_value,1103.11
-state,TX,Texas,2004-12-31,median_rent,888.83
-state,TX,Texas,2004-12-31,home_value,2518.29
-state,NY,New York,2004-12-31,median_rent,3366.8
-state,NY,New York,2004-12-31,home_value,4956.41
-state,CA,California,2005-12-31,median_rent,1845.65
-state,CA,California,2005-12-31,home_value,3796.46
-state,TX,Texas,2005-12-31,median_rent,1482.25
-state,TX,Texas,2005-12-31,home_value,3573.96
-state,NY,New York,2005-12-31,median_rent,4395.41
-state,NY,New York,2005-12-31,home_value,2071.29
-state,CA,California,2006-12-31,median_rent,1139.49
-state,CA,California,2006-12-31,home_value,2839.6
-state,TX,Texas,2006-12-31,median_rent,3778.35
-state,TX,Texas,2006-12-31,home_value,3906.82
-state,NY,New York,2006-12-31,median_rent,371.2
-state,NY,New York,2006-12-31,home_value,2944.39
-state,CA,California,2007-12-31,median_rent,3974.03
-state,CA,California,2007-12-31,home_value,2597.58
-state,TX,Texas,2007-12-31,median_rent,4447.64
-state,TX,Texas,2007-12-31,home_value,2206.77
-state,NY,New York,2007-12-31,median_rent,3111.42
-state,NY,New York,2007-12-31,home_value,1119.4
-state,CA,California,2008-12-30,median_rent,3192.91
-state,CA,California,2008-12-30,home_value,1107.04
-state,TX,Texas,2008-12-30,median_rent,3933.34
-state,TX,Texas,2008-12-30,home_value,2231.15
-state,NY,New York,2008-12-30,median_rent,3562.04
-state,NY,New York,2008-12-30,home_value,3680.24
-state,CA,California,2009-12-30,median_rent,3473.71
-state,CA,California,2009-12-30,home_value,3208.79
-state,TX,Texas,2009-12-30,median_rent,4933.16
-state,TX,Texas,2009-12-30,home_value,1060.4
-state,NY,New York,2009-12-30,median_rent,2564.83
-state,NY,New York,2009-12-30,home_value,3735.18
+state,CA,California,2022-01-01,median_rent,1767.86
+state,CA,California,2022-01-01,home_value,2704.16
+state,TX,Texas,2022-01-01,median_rent,4811.94
+state,TX,Texas,2022-01-01,home_value,4132.21
+state,NY,New York,2022-01-01,median_rent,3447.9
+state,NY,New York,2022-01-01,home_value,3764.81
+state,CA,California,2022-11-01,median_rent,4462.33
+state,CA,California,2022-11-01,home_value,1103.11
+state,TX,Texas,2022-11-01,median_rent,888.83
+state,TX,Texas,2022-11-01,home_value,2518.29
+state,NY,New York,2022-11-01,median_rent,3366.8
+state,NY,New York,2022-11-01,home_value,4956.41
+state,CA,California,2023-09-01,median_rent,1845.65
+state,CA,California,2023-09-01,home_value,3796.46
+state,TX,Texas,2023-09-01,median_rent,1482.25
+state,TX,Texas,2023-09-01,home_value,3573.96
+state,NY,New York,2023-09-01,median_rent,4395.41
+state,NY,New York,2023-09-01,home_value,2071.29
+state,CA,California,2024-07-01,median_rent,1139.49
+state,CA,California,2024-07-01,home_value,2839.6
+state,TX,Texas,2024-07-01,median_rent,3778.35
+state,TX,Texas,2024-07-01,home_value,3906.82
+state,NY,New York,2024-07-01,median_rent,371.2
+state,NY,New York,2024-07-01,home_value,2944.39
+state,CA,California,2025-05-01,median_rent,3974.03
+state,CA,California,2025-05-01,home_value,2597.58
+state,TX,Texas,2025-05-01,median_rent,4447.64
+state,TX,Texas,2025-05-01,home_value,2206.77
+state,NY,New York,2025-05-01,median_rent,3111.42
+state,NY,New York,2025-05-01,home_value,1119.4
+state,CA,California,2026-03-01,median_rent,3192.91
+state,CA,California,2026-03-01,home_value,1107.04
+state,TX,Texas,2026-03-01,median_rent,3933.34
+state,TX,Texas,2026-03-01,home_value,2231.15
+state,NY,New York,2026-03-01,median_rent,3562.04
+state,NY,New York,2026-03-01,home_value,3680.24
+state,CA,California,2026-12-30,median_rent,3473.71
+state,CA,California,2026-12-30,home_value,3208.79
+state,TX,Texas,2026-12-30,median_rent,4933.16
+state,TX,Texas,2026-12-30,home_value,1060.4
+state,NY,New York,2026-12-30,median_rent,2564.83
+state,NY,New York,2026-12-30,home_value,3735.18

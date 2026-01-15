@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-metro,31080,Los Angeles-Long Beach-Anaheim,2006-01-01,unemployment_rate,3332.52
-metro,31080,Los Angeles-Long Beach-Anaheim,2006-01-01,labor_participation,3060.57
-metro,19100,Dallas-Fort Worth,2006-01-01,unemployment_rate,2168.45
-metro,19100,Dallas-Fort Worth,2006-01-01,labor_participation,2326.4
-metro,35620,New York-Newark,2006-01-01,unemployment_rate,4530.19
-metro,35620,New York-Newark,2006-01-01,labor_participation,1214.03
-metro,31080,Los Angeles-Long Beach-Anaheim,2007-07-02,unemployment_rate,2424.17
-metro,31080,Los Angeles-Long Beach-Anaheim,2007-07-02,labor_participation,1289.62
-metro,19100,Dallas-Fort Worth,2007-07-02,unemployment_rate,1591.58
-metro,19100,Dallas-Fort Worth,2007-07-02,labor_participation,1527.7
-metro,35620,New York-Newark,2007-07-02,unemployment_rate,2247.47
-metro,35620,New York-Newark,2007-07-02,labor_participation,2096.15
-metro,31080,Los Angeles-Long Beach-Anaheim,2008-12-30,unemployment_rate,322.9
-metro,31080,Los Angeles-Long Beach-Anaheim,2008-12-30,labor_participation,2468.93
-metro,19100,Dallas-Fort Worth,2008-12-30,unemployment_rate,2634.77
-metro,19100,Dallas-Fort Worth,2008-12-30,labor_participation,4865.48
-metro,35620,New York-Newark,2008-12-30,unemployment_rate,1034.43
-metro,35620,New York-Newark,2008-12-30,labor_participation,2068.84
-metro,31080,Los Angeles-Long Beach-Anaheim,2010-06-30,unemployment_rate,3722.5
-metro,31080,Los Angeles-Long Beach-Anaheim,2010-06-30,labor_participation,3961.62
-metro,19100,Dallas-Fort Worth,2010-06-30,unemployment_rate,2359.59
-metro,19100,Dallas-Fort Worth,2010-06-30,labor_participation,4870.18
-metro,35620,New York-Newark,2010-06-30,unemployment_rate,787.96
-metro,35620,New York-Newark,2010-06-30,labor_participation,4283.16
-metro,31080,Los Angeles-Long Beach-Anaheim,2011-12-29,unemployment_rate,2481.37
-metro,31080,Los Angeles-Long Beach-Anaheim,2011-12-29,labor_participation,2874.75
-metro,19100,Dallas-Fort Worth,2011-12-29,unemployment_rate,3457.89
-metro,19100,Dallas-Fort Worth,2011-12-29,labor_participation,657.22
-metro,35620,New York-Newark,2011-12-29,unemployment_rate,1429.31
-metro,35620,New York-Newark,2011-12-29,labor_participation,177.88
-metro,31080,Los Angeles-Long Beach-Anaheim,2013-06-28,unemployment_rate,3084.08
-metro,31080,Los Angeles-Long Beach-Anaheim,2013-06-28,labor_participation,3327.19
-metro,19100,Dallas-Fort Worth,2013-06-28,unemployment_rate,4891.37
-metro,19100,Dallas-Fort Worth,2013-06-28,labor_participation,617.05
-metro,35620,New York-Newark,2013-06-28,unemployment_rate,4470.91
-metro,35620,New York-Newark,2013-06-28,labor_participation,3569.57
-metro,31080,Los Angeles-Long Beach-Anaheim,2014-12-27,unemployment_rate,3681.53
-metro,31080,Los Angeles-Long Beach-Anaheim,2014-12-27,labor_participation,1907.63
-metro,19100,Dallas-Fort Worth,2014-12-27,unemployment_rate,2886.28
-metro,19100,Dallas-Fort Worth,2014-12-27,labor_participation,536.25
-metro,35620,New York-Newark,2014-12-27,unemployment_rate,2966.34
-metro,35620,New York-Newark,2014-12-27,labor_participation,818.68
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-01-01,unemployment_rate,3332.52
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-01-01,labor_participation,3060.57
+metro,19100,Dallas-Fort Worth,2023-01-01,unemployment_rate,2168.45
+metro,19100,Dallas-Fort Worth,2023-01-01,labor_participation,2326.4
+metro,35620,New York-Newark,2023-01-01,unemployment_rate,4530.19
+metro,35620,New York-Newark,2023-01-01,labor_participation,1214.03
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-07-02,unemployment_rate,2424.17
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-07-02,labor_participation,1289.62
+metro,19100,Dallas-Fort Worth,2023-07-02,unemployment_rate,1591.58
+metro,19100,Dallas-Fort Worth,2023-07-02,labor_participation,1527.7
+metro,35620,New York-Newark,2023-07-02,unemployment_rate,2247.47
+metro,35620,New York-Newark,2023-07-02,labor_participation,2096.15
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-12-31,unemployment_rate,322.9
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-12-31,labor_participation,2468.93
+metro,19100,Dallas-Fort Worth,2023-12-31,unemployment_rate,2634.77
+metro,19100,Dallas-Fort Worth,2023-12-31,labor_participation,4865.48
+metro,35620,New York-Newark,2023-12-31,unemployment_rate,1034.43
+metro,35620,New York-Newark,2023-12-31,labor_participation,2068.84
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-06-30,unemployment_rate,3722.5
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-06-30,labor_participation,3961.62
+metro,19100,Dallas-Fort Worth,2024-06-30,unemployment_rate,2359.59
+metro,19100,Dallas-Fort Worth,2024-06-30,labor_participation,4870.18
+metro,35620,New York-Newark,2024-06-30,unemployment_rate,787.96
+metro,35620,New York-Newark,2024-06-30,labor_participation,4283.16
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-12-29,unemployment_rate,2481.37
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-12-29,labor_participation,2874.75
+metro,19100,Dallas-Fort Worth,2024-12-29,unemployment_rate,3457.89
+metro,19100,Dallas-Fort Worth,2024-12-29,labor_participation,657.22
+metro,35620,New York-Newark,2024-12-29,unemployment_rate,1429.31
+metro,35620,New York-Newark,2024-12-29,labor_participation,177.88
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-06-29,unemployment_rate,3084.08
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-06-29,labor_participation,3327.19
+metro,19100,Dallas-Fort Worth,2025-06-29,unemployment_rate,4891.37
+metro,19100,Dallas-Fort Worth,2025-06-29,labor_participation,617.05
+metro,35620,New York-Newark,2025-06-29,unemployment_rate,4470.91
+metro,35620,New York-Newark,2025-06-29,labor_participation,3569.57
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-12-28,unemployment_rate,3681.53
+metro,31080,Los Angeles-Long Beach-Anaheim,2025-12-28,labor_participation,1907.63
+metro,19100,Dallas-Fort Worth,2025-12-28,unemployment_rate,2886.28
+metro,19100,Dallas-Fort Worth,2025-12-28,labor_participation,536.25
+metro,35620,New York-Newark,2025-12-28,unemployment_rate,2966.34
+metro,35620,New York-Newark,2025-12-28,labor_participation,818.68

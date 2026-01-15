@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-state,CA,California,2016-01-01,electric_usage,4680.64
-state,CA,California,2016-01-01,renewable_share,852.34
-state,TX,Texas,2016-01-01,electric_usage,569.9
-state,TX,Texas,2016-01-01,renewable_share,1022.2
-state,NY,New York,2016-01-01,electric_usage,77.68
-state,NY,New York,2016-01-01,renewable_share,693.46
-state,CA,California,2016-12-31,electric_usage,3830.06
-state,CA,California,2016-12-31,renewable_share,2229.53
-state,TX,Texas,2016-12-31,electric_usage,255.19
-state,TX,Texas,2016-12-31,renewable_share,1727.68
-state,NY,New York,2016-12-31,electric_usage,2541.91
-state,NY,New York,2016-12-31,renewable_share,3493.93
-state,CA,California,2017-12-31,electric_usage,269.81
-state,CA,California,2017-12-31,renewable_share,4509.29
-state,TX,Texas,2017-12-31,electric_usage,2175.24
-state,TX,Texas,2017-12-31,renewable_share,2151.38
-state,NY,New York,2017-12-31,electric_usage,2848.54
-state,NY,New York,2017-12-31,renewable_share,4310.66
-state,CA,California,2018-12-31,electric_usage,3120.32
-state,CA,California,2018-12-31,renewable_share,2074.32
-state,TX,Texas,2018-12-31,electric_usage,3845.28
-state,TX,Texas,2018-12-31,renewable_share,3280.06
-state,NY,New York,2018-12-31,electric_usage,4537.66
-state,NY,New York,2018-12-31,renewable_share,3259.43
-state,CA,California,2019-12-31,electric_usage,2603.45
-state,CA,California,2019-12-31,renewable_share,3429.38
-state,TX,Texas,2019-12-31,electric_usage,3134.04
-state,TX,Texas,2019-12-31,renewable_share,1622.27
-state,NY,New York,2019-12-31,electric_usage,2832.5
-state,NY,New York,2019-12-31,renewable_share,3469.48
-state,CA,California,2020-12-30,electric_usage,3672.46
-state,CA,California,2020-12-30,renewable_share,2439.04
-state,TX,Texas,2020-12-30,electric_usage,4737.67
-state,TX,Texas,2020-12-30,renewable_share,4107.03
-state,NY,New York,2020-12-30,electric_usage,4759.31
-state,NY,New York,2020-12-30,renewable_share,3425.96
-state,CA,California,2021-12-30,electric_usage,2425.32
-state,CA,California,2021-12-30,renewable_share,3716.74
-state,TX,Texas,2021-12-30,electric_usage,3073.56
-state,TX,Texas,2021-12-30,renewable_share,4854.03
-state,NY,New York,2021-12-30,electric_usage,4344.49
-state,NY,New York,2021-12-30,renewable_share,3097.52
+state,CA,California,2023-01-01,electric_usage,4680.64
+state,CA,California,2023-01-01,renewable_share,852.34
+state,TX,Texas,2023-01-01,electric_usage,569.9
+state,TX,Texas,2023-01-01,renewable_share,1022.2
+state,NY,New York,2023-01-01,electric_usage,77.68
+state,NY,New York,2023-01-01,renewable_share,693.46
+state,CA,California,2023-07-02,electric_usage,3830.06
+state,CA,California,2023-07-02,renewable_share,2229.53
+state,TX,Texas,2023-07-02,electric_usage,255.19
+state,TX,Texas,2023-07-02,renewable_share,1727.68
+state,NY,New York,2023-07-02,electric_usage,2541.91
+state,NY,New York,2023-07-02,renewable_share,3493.93
+state,CA,California,2023-12-31,electric_usage,269.81
+state,CA,California,2023-12-31,renewable_share,4509.29
+state,TX,Texas,2023-12-31,electric_usage,2175.24
+state,TX,Texas,2023-12-31,renewable_share,2151.38
+state,NY,New York,2023-12-31,electric_usage,2848.54
+state,NY,New York,2023-12-31,renewable_share,4310.66
+state,CA,California,2024-06-30,electric_usage,3120.32
+state,CA,California,2024-06-30,renewable_share,2074.32
+state,TX,Texas,2024-06-30,electric_usage,3845.28
+state,TX,Texas,2024-06-30,renewable_share,3280.06
+state,NY,New York,2024-06-30,electric_usage,4537.66
+state,NY,New York,2024-06-30,renewable_share,3259.43
+state,CA,California,2024-12-29,electric_usage,2603.45
+state,CA,California,2024-12-29,renewable_share,3429.38
+state,TX,Texas,2024-12-29,electric_usage,3134.04
+state,TX,Texas,2024-12-29,renewable_share,1622.27
+state,NY,New York,2024-12-29,electric_usage,2832.5
+state,NY,New York,2024-12-29,renewable_share,3469.48
+state,CA,California,2025-06-29,electric_usage,3672.46
+state,CA,California,2025-06-29,renewable_share,2439.04
+state,TX,Texas,2025-06-29,electric_usage,4737.67
+state,TX,Texas,2025-06-29,renewable_share,4107.03
+state,NY,New York,2025-06-29,electric_usage,4759.31
+state,NY,New York,2025-06-29,renewable_share,3425.96
+state,CA,California,2025-12-28,electric_usage,2425.32
+state,CA,California,2025-12-28,renewable_share,3716.74
+state,TX,Texas,2025-12-28,electric_usage,3073.56
+state,TX,Texas,2025-12-28,renewable_share,4854.03
+state,NY,New York,2025-12-28,electric_usage,4344.49
+state,NY,New York,2025-12-28,renewable_share,3097.52

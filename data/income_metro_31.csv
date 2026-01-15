@@ -1,43 +1,43 @@
 geo_level,geo_id,geo_name,date,metric,value
-metro,31080,Los Angeles-Long Beach-Anaheim,2002-01-01,median_income,3495.61
-metro,31080,Los Angeles-Long Beach-Anaheim,2002-01-01,household_income,3603.92
-metro,19100,Dallas-Fort Worth,2002-01-01,median_income,2544.46
-metro,19100,Dallas-Fort Worth,2002-01-01,household_income,4354.18
-metro,35620,New York-Newark,2002-01-01,median_income,4982.94
-metro,35620,New York-Newark,2002-01-01,household_income,3451.67
-metro,31080,Los Angeles-Long Beach-Anaheim,2003-07-02,median_income,876.8
-metro,31080,Los Angeles-Long Beach-Anaheim,2003-07-02,household_income,534.95
-metro,19100,Dallas-Fort Worth,2003-07-02,median_income,2561.58
-metro,19100,Dallas-Fort Worth,2003-07-02,household_income,3092.61
-metro,35620,New York-Newark,2003-07-02,median_income,181.67
-metro,35620,New York-Newark,2003-07-02,household_income,1751.49
-metro,31080,Los Angeles-Long Beach-Anaheim,2004-12-30,median_income,3925.86
-metro,31080,Los Angeles-Long Beach-Anaheim,2004-12-30,household_income,3778.05
-metro,19100,Dallas-Fort Worth,2004-12-30,median_income,3318.44
-metro,19100,Dallas-Fort Worth,2004-12-30,household_income,3252.76
-metro,35620,New York-Newark,2004-12-30,median_income,3463.78
-metro,35620,New York-Newark,2004-12-30,household_income,4643.27
-metro,31080,Los Angeles-Long Beach-Anaheim,2006-06-30,median_income,1028.49
-metro,31080,Los Angeles-Long Beach-Anaheim,2006-06-30,household_income,3044.33
-metro,19100,Dallas-Fort Worth,2006-06-30,median_income,3588.77
-metro,19100,Dallas-Fort Worth,2006-06-30,household_income,95.69
-metro,35620,New York-Newark,2006-06-30,median_income,4948.97
-metro,35620,New York-Newark,2006-06-30,household_income,623.42
-metro,31080,Los Angeles-Long Beach-Anaheim,2007-12-29,median_income,2999.38
-metro,31080,Los Angeles-Long Beach-Anaheim,2007-12-29,household_income,3440.99
-metro,19100,Dallas-Fort Worth,2007-12-29,median_income,2579.87
-metro,19100,Dallas-Fort Worth,2007-12-29,household_income,1066.98
-metro,35620,New York-Newark,2007-12-29,median_income,2759.0
-metro,35620,New York-Newark,2007-12-29,household_income,4430.46
-metro,31080,Los Angeles-Long Beach-Anaheim,2009-06-28,median_income,3995.09
-metro,31080,Los Angeles-Long Beach-Anaheim,2009-06-28,household_income,109.48
-metro,19100,Dallas-Fort Worth,2009-06-28,median_income,4320.23
-metro,19100,Dallas-Fort Worth,2009-06-28,household_income,4333.32
-metro,35620,New York-Newark,2009-06-28,median_income,91.16
-metro,35620,New York-Newark,2009-06-28,household_income,1742.33
-metro,31080,Los Angeles-Long Beach-Anaheim,2010-12-27,median_income,382.33
-metro,31080,Los Angeles-Long Beach-Anaheim,2010-12-27,household_income,2684.56
-metro,19100,Dallas-Fort Worth,2010-12-27,median_income,4693.36
-metro,19100,Dallas-Fort Worth,2010-12-27,household_income,611.5
-metro,35620,New York-Newark,2010-12-27,median_income,255.5
-metro,35620,New York-Newark,2010-12-27,household_income,419.3
+metro,31080,Los Angeles-Long Beach-Anaheim,2021-01-01,median_income,3495.61
+metro,31080,Los Angeles-Long Beach-Anaheim,2021-01-01,household_income,3603.92
+metro,19100,Dallas-Fort Worth,2021-01-01,median_income,2544.46
+metro,19100,Dallas-Fort Worth,2021-01-01,household_income,4354.18
+metro,35620,New York-Newark,2021-01-01,median_income,4982.94
+metro,35620,New York-Newark,2021-01-01,household_income,3451.67
+metro,31080,Los Angeles-Long Beach-Anaheim,2021-09-01,median_income,876.8
+metro,31080,Los Angeles-Long Beach-Anaheim,2021-09-01,household_income,534.95
+metro,19100,Dallas-Fort Worth,2021-09-01,median_income,2561.58
+metro,19100,Dallas-Fort Worth,2021-09-01,household_income,3092.61
+metro,35620,New York-Newark,2021-09-01,median_income,181.67
+metro,35620,New York-Newark,2021-09-01,household_income,1751.49
+metro,31080,Los Angeles-Long Beach-Anaheim,2022-05-02,median_income,3925.86
+metro,31080,Los Angeles-Long Beach-Anaheim,2022-05-02,household_income,3778.05
+metro,19100,Dallas-Fort Worth,2022-05-02,median_income,3318.44
+metro,19100,Dallas-Fort Worth,2022-05-02,household_income,3252.76
+metro,35620,New York-Newark,2022-05-02,median_income,3463.78
+metro,35620,New York-Newark,2022-05-02,household_income,4643.27
+metro,31080,Los Angeles-Long Beach-Anaheim,2022-12-31,median_income,1028.49
+metro,31080,Los Angeles-Long Beach-Anaheim,2022-12-31,household_income,3044.33
+metro,19100,Dallas-Fort Worth,2022-12-31,median_income,3588.77
+metro,19100,Dallas-Fort Worth,2022-12-31,household_income,95.69
+metro,35620,New York-Newark,2022-12-31,median_income,4948.97
+metro,35620,New York-Newark,2022-12-31,household_income,623.42
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-08-31,median_income,2999.38
+metro,31080,Los Angeles-Long Beach-Anaheim,2023-08-31,household_income,3440.99
+metro,19100,Dallas-Fort Worth,2023-08-31,median_income,2579.87
+metro,19100,Dallas-Fort Worth,2023-08-31,household_income,1066.98
+metro,35620,New York-Newark,2023-08-31,median_income,2759.0
+metro,35620,New York-Newark,2023-08-31,household_income,4430.46
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-04-30,median_income,3995.09
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-04-30,household_income,109.48
+metro,19100,Dallas-Fort Worth,2024-04-30,median_income,4320.23
+metro,19100,Dallas-Fort Worth,2024-04-30,household_income,4333.32
+metro,35620,New York-Newark,2024-04-30,median_income,91.16
+metro,35620,New York-Newark,2024-04-30,household_income,1742.33
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-12-29,median_income,382.33
+metro,31080,Los Angeles-Long Beach-Anaheim,2024-12-29,household_income,2684.56
+metro,19100,Dallas-Fort Worth,2024-12-29,median_income,4693.36
+metro,19100,Dallas-Fort Worth,2024-12-29,household_income,611.5
+metro,35620,New York-Newark,2024-12-29,median_income,255.5
+metro,35620,New York-Newark,2024-12-29,household_income,419.3

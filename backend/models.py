@@ -123,3 +123,33 @@ class PlannerCandidate(BaseModel):
 class PlannerResponse(BaseModel):
     top_k: int
     candidates: list[PlannerCandidate]
+
+
+class AutoRunRequest(BaseModel):
+    query: UserQuery
+    k: int = 25
+    concurrency: int = 5
+    timeout_ms: int = 2000
+
+
+class DatasetRunResult(BaseModel):
+    dataset_id: str
+    status: Literal["success", "no_data", "error"]
+    row_count: int
+    preview: list[dict]
+    metadata: dict
+    timing_ms: float
+    error_reason: str | None = None
+
+
+class AutoRunSummary(BaseModel):
+    success: int
+    no_data: int
+    error: int
+    total_runtime_ms: float
+
+
+class AutoRunResponse(BaseModel):
+    planned: list[PlannerCandidate]
+    results: list[DatasetRunResult]
+    summary: AutoRunSummary
