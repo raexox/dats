@@ -14,17 +14,10 @@ import {
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Download, ArrowUpDown } from "lucide-react"
-
-interface DataRow {
-  id: string
-  location: string
-  value: number
-  perCapitaValue?: number
-  changePercent?: number
-}
+import type { DatasetRow } from "@/types/api"
 
 interface DataTableViewProps {
-  data: DataRow[]
+  data: DatasetRow[]
   isLoading?: boolean
   metric: string
 }
@@ -137,11 +130,10 @@ export function DataTableView({ data, isLoading = false, metric }: DataTableView
                 <TableBody>
                   {paginatedData.map((row) => {
                     const perCapitaText =
-                      typeof row.perCapitaValue === "number" ? row.perCapitaValue.toFixed(2) : "—"
-                    const changeValue =
-                      typeof row.changePercent === "number" ? row.changePercent : null
+                      typeof row.perCapitaValue === "number" ? row.perCapitaValue.toFixed(2) : "-"
+                    const changeValue = typeof row.changePercent === "number" ? row.changePercent : null
                     const changeText =
-                      changeValue !== null ? `${changeValue > 0 ? "+" : ""}${changeValue.toFixed(1)}%` : "—"
+                      changeValue !== null ? `${changeValue > 0 ? "+" : ""}${changeValue.toFixed(1)}%` : "-"
                     const changeClass =
                       changeValue === null
                         ? "text-muted-foreground"
@@ -189,11 +181,7 @@ export function DataTableView({ data, isLoading = false, metric }: DataTableView
                       if (isVisible) {
                         return (
                           <PaginationItem key={pageNum}>
-                            <PaginationLink
-                              href="#"
-                              onClick={() => setCurrentPage(pageNum)}
-                              isActive={pageNum === currentPage}
-                            >
+                            <PaginationLink href="#" onClick={() => setCurrentPage(pageNum)} isActive={pageNum === currentPage}>
                               {pageNum}
                             </PaginationLink>
                           </PaginationItem>
@@ -220,3 +208,4 @@ export function DataTableView({ data, isLoading = false, metric }: DataTableView
     </Card>
   )
 }
+

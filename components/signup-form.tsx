@@ -4,12 +4,14 @@ import type React from "react"
 
 import { useState } from "react"
 import Link from "next/link"
+import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Github, Chrome } from "lucide-react"
+import { register } from "@/lib/api/auth"
 
 export function SignupForm() {
   const [email, setEmail] = useState("")
@@ -17,6 +19,8 @@ export function SignupForm() {
   const [confirmPassword, setConfirmPassword] = useState("")
   const [termsAccepted, setTermsAccepted] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
+  const router = useRouter()
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -25,10 +29,15 @@ export function SignupForm() {
       return
     }
     setIsLoading(true)
-    // Mock API call
-    await new Promise((resolve) => setTimeout(resolve, 800))
-    setIsLoading(false)
-    // In a real app, this would call an authentication API
+    setError(null)
+    try {
+      await register({ email, password })
+      router.push("/app")
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Unable to sign up.")
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   return (
@@ -97,6 +106,7 @@ export function SignupForm() {
             {isLoading ? "Creating account..." : "Create Account"}
           </Button>
         </form>
+        {error && <p className="text-sm text-destructive">{error}</p>}
 
         <div className="relative">
           <div className="absolute inset-0 flex items-center">

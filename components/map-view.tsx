@@ -3,12 +3,13 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
+import type { MapGeoLevel } from "@/types/api"
 import { Maximize2 } from "lucide-react"
 
 interface MapViewProps {
   phrase: string
-  geography: "state" | "county"
-  onGeographyChange: (value: "state" | "county") => void
+  geography: MapGeoLevel
+  onGeographyChange: (value: MapGeoLevel) => void
 }
 
 export function MapView({ phrase, geography, onGeographyChange }: MapViewProps) {

@@ -4,8 +4,11 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/ui/theme-toggle"
 import { Map } from "lucide-react"
+import { useAuth } from "@/hooks/use-auth"
+import { logout } from "@/lib/api/auth"
 
 export function Navbar() {
+  const { user, isLoading } = useAuth()
   return (
     <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="mx-auto max-w-7xl flex h-16 items-center justify-between px-4">
@@ -16,12 +19,28 @@ export function Navbar() {
 
         <div className="flex items-center gap-4">
           <ThemeToggle />
-          <Button variant="ghost" asChild>
-            <Link href="/login">Sign In</Link>
-          </Button>
-          <Button asChild>
-            <Link href="/signup">Get Started</Link>
-          </Button>
+          <span className="text-sm text-muted-foreground">
+            {isLoading ? "Checking session..." : user ? `Signed in as ${user.name ?? user.email}` : "Not signed in"}
+          </span>
+          {user ? (
+            <Button
+              variant="ghost"
+              onClick={() => {
+                void logout()
+              }}
+            >
+              Sign Out
+            </Button>
+          ) : (
+            <>
+              <Button variant="ghost" asChild>
+                <Link href="/login">Sign In</Link>
+              </Button>
+              <Button asChild>
+                <Link href="/signup">Get Started</Link>
+              </Button>
+            </>
+          )}
         </div>
       </div>
     </nav>
